@@ -2,8 +2,11 @@
   "identity": {
     "file_name": "identity.json"
   },
-  "linux_kernal1": {
-    "file_name": "linux_kernal1.json"
+  "linux_kernal1_train": {
+    "file_name": "linux_kernal1_train.json"
+  },
+  "linux_kernal1_test": {
+    "file_name": "linux_kernal1_test.json"
   },
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
