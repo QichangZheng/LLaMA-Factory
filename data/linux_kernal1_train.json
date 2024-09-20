@@ -4998,9 +4998,7 @@
     "instruction":"The following question is relevant to Linux:\nWhat is a Compute cluster and how does it differ from a Compute instance?",
     "output":"Compute cluster is a managed-compute infrastructure which can have single or multiple nodes, whereas a Compute instance is a managed cloud-based workstation for data scientists that can only have a single node.\n",
     "input":""
-  }
-]
-[
+  },
   {
     "instruction":"The following question is relevant to Linux:\nWhat is a Compute cluster and how does it differ from a Compute instance?",
     "output":"Compute cluster is a managed-compute infrastructure which can have single or multiple nodes, whereas a Compute instance is a managed cloud-based workstation for data scientists that can only have a single node.\n",
@@ -10000,9 +9998,7 @@
     "instruction":"The following question is relevant to Linux:\nHow do applications set the id field of a struct v4l2_queryctrl?",
     "output":"Applications set the id field of a struct v4l2_queryctrl to identify the control, and can also OR it with V4L2_CTRL_FLAG_NEXT_CTRL to get the next supported non-compound control.\n",
     "input":""
-  }
-]
-[
+  },
   {
     "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the v4l2_fh_init function?",
     "output":"The v4l2_fh_init function initializes the file handle, and must be performed in the driver\u2019s v4l2_file_operations->open() handler.\n",
@@ -15002,9 +14998,7 @@
     "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the AUDIO_SET_BYPASS_MODE ioctl and how does it affect the decoding of the current Audio stream in the DVB subsystem?",
     "output":"The AUDIO_SET_BYPASS_MODE ioctl asks the Audio Device to bypass the Audio decoder and forward the stream without decoding, which is used for streams that can\u2019t be handled by the DVB system, and the mode is controlled by the boolean argument, where TRUE disables bypass and FALSE enables it.",
     "input":""
-  }
-]
-[
+  },
   {
     "instruction":"The following question is relevant to Linux:\nWhat categories of tools are installed on a Compute instance?",
     "output":"The following categories of tools are installed on a Compute instance: Drivers (CUDA, NVIDIA, Blob FUSE), Azure CLI (v1, v2), and Docker.\n",
@@ -20004,9 +19998,7 @@
     "instruction":"The following question is relevant to Linux:\nWhat is a Compute cluster?",
     "output":"Compute cluster is a managed-compute infrastructure which can have single or multiple nodes.\n",
     "input":""
-  }
-]
-[
+  },
   {
     "instruction":"The following question is relevant to Linux:\nHow does the High-Level CI interface work?",
     "output":"The High-Level CI interface uses the EN50221 DVB standard, following a standard ensures future-proofness, and it uses ioctls such as CA_RESET, CA_GET_CAP, CA_GET_SLOT_INFO, CA_GET_DESCR_INFO, CA_GET_MSG, CA_SEND_MSG, CA_SET_DESCR, and CA_SET_PID to exchange data with the driver.",
