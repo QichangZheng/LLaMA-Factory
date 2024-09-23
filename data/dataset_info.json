@@ -2,12 +2,43 @@
   "identity": {
     "file_name": "identity.json"
   },
-  "linux_kernal1_train": {
-    "file_name": "linux_kernal1_train.json"
+  "linux_kernel1_train": {
+    "file_name": "linux_kernel1_train.json"
   },
-  "linux_kernal1_test": {
-    "file_name": "linux_kernal1_test.json"
+  "linux_kernel1_test": {
+    "file_name": "linux_kernel1_test.json"
   },
+  "alpaca_gpt4_0": {
+      "file_name": "alpaca_gpt4_0.json"
+  },
+  "alpaca_gpt4_1": {
+      "file_name": "alpaca_gpt4_1.json"
+  },
+  "alpaca_gpt4_2": {
+      "file_name": "alpaca_gpt4_2.json"
+  },
+  "alpaca_gpt4_3": {
+      "file_name": "alpaca_gpt4_3.json"
+  },
+  "alpaca_gpt4_4": {
+      "file_name": "alpaca_gpt4_4.json"
+  },
+  "alpaca_gpt4_5": {
+      "file_name": "alpaca_gpt4_5.json"
+  },
+  "alpaca_gpt4_6": {
+      "file_name": "alpaca_gpt4_6.json"
+  },
+  "alpaca_gpt4_7": {
+      "file_name": "alpaca_gpt4_7.json"
+  },
+  "alpaca_gpt4_8": {
+      "file_name": "alpaca_gpt4_8.json"
+  },
+  "alpaca_gpt4_9": {
+      "file_name": "alpaca_gpt4_9.json"
+  },
+
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },
