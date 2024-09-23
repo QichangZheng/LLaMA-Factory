@@ -38,7 +38,9 @@
   "alpaca_gpt4_9": {
       "file_name": "alpaca_gpt4_9.json"
   },
-
+  "alpaca_gpt4_sample": {
+      "file_name": "alpaca_gpt4_sample.json"
+  },
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },
