@@ -2,4 +2,4 @@ model_name_or_path: /root/autodl-tmp/LLaMA3.1-70B-Chat
 template: llama3
 infer_backend: vllm
 vllm_enforce_eager: true
-vllm_maxlen: 32768
+vllm_maxlen: 8192
