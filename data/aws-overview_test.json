@@ -1,0 +1,62 @@
+[
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Kinesis Firehose and how does it work?",
+    "output":"Amazon Kinesis Firehose is a fully managed service that captures and automatically loads streaming data into Amazon S3 and Amazon Redshift, enabling near real-time analytics, and can batch, compress, and encrypt the data before loading it, minimizing storage used and increasing security.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Elasticsearch Service and how does it work?",
+    "output":"Amazon Elasticsearch Service provisions all the resources for your cluster and launches it, automatically detecting and replacing failed Elasticsearch nodes, reducing the overhead associated with self-managed infrastructure and Elasticsearch software.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon QuickSight and what does it enable organizations to do?",
+    "output":"Amazon QuickSight is a fast, cloud-powered business intelligence (BI) service that enables organizations to scale to hundreds of thousands of users, delivering fast and responsive query performance via SPICE.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat types of rules and standards does Amazon Inspector include in its knowledge base?",
+    "output":"Amazon Inspector includes a knowledge base of hundreds of rules mapped to common security compliance standards (e.g., PCI DSS) and vulnerability definitions, helping you get started quickly with security and compliance assessment.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CloudTrail and what information does it record?",
+    "output":"AWS CloudTrail is a web service that records AWS API calls for your account and delivers log files to you. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by the AWS service.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CodeCommit and what benefits does it provide?",
+    "output":"AWS CodeCommit is a fully managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. It eliminates the need to operate your own source control system or worry about scaling its infrastructure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of using cloud computing in terms of data center management?",
+    "output":"Cloud computing lets businesses focus on projects that differentiate their business, rather than on the heavy lifting of racking, stacking, and powering servers, allowing them to focus on their own customers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the AWS Cloud Compliance program?",
+    "output":"AWS Cloud Compliance enables customers to understand the robust controls in place at AWS to maintain security and data protection in the cloud, and helps customers establish and operate in an AWS security control environment.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon EC2 work with other Amazon Web Services?",
+    "output":"Amazon EC2 works in conjunction with Amazon Simple Storage Service (Amazon S3), Amazon Relational Database Service (Amazon RDS), Amazon DynamoDB, and Amazon Simple Queue Service (Amazon SQS) to provide a complete solution for computing, query processing, and storage across a wide range of applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does cloud computing enable businesses to deploy applications globally?",
+    "output":"Cloud computing allows businesses to easily deploy their application in multiple regions around the world with just a few clicks, providing lower latency and a better experience for customers at minimal cost.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of using cloud computing in terms of capacity planning?",
+    "output":"Cloud computing eliminates the need to guess about infrastructure capacity needs, allowing businesses to access as much or as little capacity as needed and scale up and down as required with only a few minutes' notice.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Elastic File System (Amazon EFS)?",
+    "output":"Amazon EFS is a shared file storage service for Amazon EC2 instances that provides a simple interface to create and configure file systems quickly and easily, with elastic storage capacity that grows and shrinks automatically.\n",
+    "input":""
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the features of cluster computing?",
+    "output":"Cluster computing features include all connected computers being the same kind of machines, tightly connected through dedicated network connections, and all computers sharing a common home directory.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the essential features of a cloud?",
+    "output":"Certain features of a cloud are essential to enable services that truly represent the cloud computing model, including self-service, per-usage metered and billed, elasticity, and customization.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat types of user interfaces do public IaaS providers typically offer?",
+    "output":"Public IaaS providers typically offer multiple access means, including graphical user interfaces (GUI), command-line tools (CLI), and Web service (WS) APIs, to cater to various users and their preferences.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Microsoft Azure, and how does it compare to other PaaS providers in terms of its features and capabilities?",
+    "output":"Microsoft Azure is a PaaS provider that offers a range of features and capabilities, including support for .NET languages, but the text does not provide a detailed comparison to other PaaS providers.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the three cloud service models?",
+    "output":"The three cloud service models are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is High Availability, and what does it refer to?",
+    "output":"High Availability is a system design protocol and an associated implementation that ensures a certain absolute degree of operational continuity during a given measurement period, referring to the ability of a user\u2019s community to access the system.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is ConVirt and what is its main function?",
+    "output":"ConVirt is a management software that provides the main console for managing the VM life cycle, managing images, provisioning new VMs, monitoring machine resources, and so on.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the characteristics of cloud computing?",
+    "output":"Cloud computing applies a virtualized platform with elastic resources on demand, provides redundant, self-recovering, highly scalable programming models, and allows for real-time monitoring of resource use.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is User-Application Level virtualization?",
+    "output":"User-Application Level virtualization is also known as process-level virtualization. It involves deploying high-level language (HLL) VMs, such as the Microsoft .NET CLR and Java Virtual Machine (JVM).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow can reputation systems be used in conjunction with digital identity?",
+    "output":"Reputation systems can be used to associate varying levels of trust with a digital identity, which in turn can be used to define the level of security policy applied to data resources that the individual wishes to access.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is user-centric identity, and what are its advantages?",
+    "output":"User-centric identity is a mechanism for identifying an individual, particularly within a cloud environment, where identity ownership is placed upon the individual, allowing users to consent and control how their identity is used, which can improve the privacy aspects of a digital identity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are some disadvantages of P2P networks?",
+    "output":"P2P networks are difficult to manage, lack security, and are not reliable for a large number of peer nodes, making them only useful for applications that require a low level of security and have no concern for data sensitivity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of provisioning from a template in virtualization management?",
+    "output":"Provisioning from a template reduces the time required to create a new virtual machine, enabling administrators to quickly provision a correctly configured virtual server on demand.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are some examples of VI management solutions?",
+    "output":"Several VI management solutions have emerged over time, such as platform ISF and VMware vSphere, along with open-source initiatives such as Enomaly Computing Platform and Ovirt.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is a private cloud, and what are its main goals?",
+    "output":"A private cloud aims at providing public cloud functionality, but on private resources, maintaining control over an organization\u2019s data and resources to meet security and governance\u2019s requirements.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Infrastructure as a Service (IaaS) and what features does it offer?",
+    "output":"Infrastructure as a Service (IaaS) is a cloud computing model that offers virtual machines provisioning and migration services, virtual machines provisioning and manageability, and virtual machine migration services, among other features.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the challenge with x86 CPU architectures in terms of virtualization?",
+    "output":"x86 CPU architectures are not primarily designed to support virtualization, making it more complicated to implement virtualization.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat cloud development services does Google offer?",
+    "output":"Google offers cloud development services in the form of the Google App Engine, which enables developers to build their own web applications utilizing the same infrastructure that powers Google\u2019s powerful applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Force.com and what does it offer to developers?",
+    "output":"Force.com is a PaaS that allows developers to create add-on functionality that integrates into the main Salesforce CRM SaaS application, offering a hosted Apex or Visualforce application, and an application store called App Exchange.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhy is standardization important in virtualization and cloud computing?",
+    "output":"Standardization is important to ensure interoperability between virtualization management vendors, the virtual machines produced by each one of them, and cloud computing.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the dimensions to be considered in mapping virtual machines onto available physical hosts?",
+    "output":"The dimensions to be considered include the number of CPUs, amount of memory, size of virtual disks, and network bandwidth, and dynamic VM mapping policies may leverage the ability to suspend, migrate, and resume VMs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Heroku and what are its key features?",
+    "output":"Heroku is a platform for instant deployment of Ruby on Rails Web applications, offering automatic dispersion of applications across different CPU cores and servers, maximizing performance and minimizing contention, and an advanced logic layer that can automatically route around failures.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is an example of a turnkey IaaS platform that has lowered the barrier of entry for IaaS competitors?",
+    "output":"VMWare VCloud and Citrix Cloud Center (C3) are examples of turnkey IaaS platforms that have lowered the barrier of entry for IaaS competitors, leading to a rapid expansion in the IaaS marketplace.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is an example of a distributed P2P computing network?",
+    "output":"An example of a distributed P2P computing network is SETI@home, which provides 25 Tflops of distributed computing power collectively over 3 million Internet host machines.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is a Service-Level Agreement (SLA) in cloud computing?",
+    "output":"A Service-Level Agreement (SLA) is offered by IaaS providers to express their commitment to delivery of a certain Quality of Service (QoS), including availability and performance guarantees, and penalties for violating these expectations.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the main goal of the RESERVOIR project?",
+    "output":"The RESERVOIR project tries to solve the complex task of efficiently scheduling resources by supporting flexible and complex scheduling policies and leveraging the ability of VMs to suspend, resume, and migrate.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the difference between privileged and unprivileged instructions in a virtualized environment?",
+    "output":"Privileged instructions are instructions running in supervisor mode, while unprivileged instructions are other instructions that do not require supervisor mode.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the Virtualization Management Initiative (VMAN) and what does it deliver?",
+    "output":"VMAN is an initiative led by the Distributed Management Task Force (DMTF) that delivers broadly supported interoperability and portability standards for managing the virtual computing lifecycle.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the difference between a micro-kernel hypervisor and a monolithic hypervisor?",
+    "output":"A micro-kernel hypervisor includes only the basic and unchanging functions, while a monolithic hypervisor implements all the functions, including those of the device drivers. The size of the hypervisor code of a micro-kernel hypervisor is smaller than that of a monolithic hypervisor.\n",
+    "input":""
+  }
+]

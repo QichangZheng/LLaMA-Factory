@@ -1,0 +1,537 @@
+[
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Route 53 and what are its key features?",
+    "output":"Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that translates human-readable names into numeric IP addresses, connecting user requests to infrastructure running in AWS or outside of AWS.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of using DynamoDB for developing and testing applications?",
+    "output":"DynamoDB makes it easy to develop and test applications on your laptop or in an EC2 instance, and then easily scale your application on the cloud.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon AppStream and how does it enable developers to deliver Windows applications to any device?",
+    "output":"Amazon AppStream lets developers deliver their Windows applications to any device, without code modifications, by deploying and rendering the application on AWS infrastructure and streaming the output to mass-market devices.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the two open-source in-memory caching engines supported by Amazon ElastiCache?",
+    "output":"Amazon ElastiCache supports two open-source in-memory caching engines: Memcached and Redis.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS OpsWorks and how does it help with application configuration and operation?",
+    "output":"AWS OpsWorks is a configuration management service that helps you configure and operate applications of all shapes and sizes using Chef, allowing you to define the application\u2019s architecture and specification of each component, and automate scaling and dynamic configuration.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SNS and how can it be used for mobile app notifications?",
+    "output":"Amazon SNS is a fast, flexible, fully managed pub-sub messaging service that can be used as a cloud-based mobile app notification service to send push notifications, email, and SMS messages.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat flexibility does Amazon EC2 offer in terms of instance types, operating systems, and software packages?",
+    "output":"You can choose among multiple instance types, operating systems, and software packages, and select the memory configuration, CPU, instance storage, and boot partition size that are optimal for the operating system and applications that you choose.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon CloudFront and what does it do?",
+    "output":"Amazon CloudFront is a content delivery web service that integrates with other services in AWS to give developers and businesses an easy way to distribute content to end users with low latency, high data transfer speeds, and no minimum usage commitments.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Direct Connect?",
+    "output":"AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS, reducing network costs, increasing bandwidth throughput, and providing a more consistent network experience than Internet-based connections.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Lambda and how does it work?",
+    "output":"AWS Lambda lets you run code without provisioning or managing servers, and you only pay for the compute time consumed. You can upload your code, and Lambda takes care of everything required to run and scale your code with high availability.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Mobile Hub and what features does it provide for building mobile apps?",
+    "output":"AWS Mobile Hub is the fastest way to build mobile apps powered by AWS, and it lets you easily add and configure features for your apps, including user authentication, data storage, back end logic, push notifications, content delivery, and analytics.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Elastic Transcoder and what is its purpose?",
+    "output":"Amazon Elastic Transcoder is a media transcoding service in the cloud that is designed to be a highly scalable, easy-to-use, and cost-effective way for developers and businesses to convert media files from their source format into versions that will play back on devices like smartphones, tablets, and PCs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is cloud computing and how does it benefit businesses?",
+    "output":"Cloud computing is the on-demand delivery of IT resources and applications via the Internet with pay-as-you-go pricing, allowing businesses to replace up-front capital infrastructure expenses with low variable costs that scale with their business.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of using Spot Instances with Amazon EC2?",
+    "output":"Spot Instances allow you to bid on unused Amazon EC2 capacity and run those instances for as long as your bid exceeds the current Spot Price, which can significantly lower your Amazon EC2 costs if you can be flexible about when your applications need to run.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat AWS services can be used with AWS IoT to build IoT applications?",
+    "output":"AWS IoT makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning, and Amazon DynamoDB to build Internet of Things (IoT) applications that gather, process, analyze and act on data from connected devices.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon WorkDocs and what are its key features?",
+    "output":"Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity, allowing users to comment on files, send them to others for feedback, and upload new versions without having to resort to emailing multiple versions of their files as attachments.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat features does AWS WAF provide to control traffic to your web application?",
+    "output":"AWS WAF gives you control over which traffic to allow or block to your web application by defining customizable web security rules, and allows you to create custom rules that block common attack patterns.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the key benefit of using Amazon EC2 in terms of computing capacity?",
+    "output":"Amazon EC2 enables you to increase or decrease capacity within minutes, not hours or days, and you can commission one, hundreds or even thousands of server instances simultaneously.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the routing capabilities of Amazon Route 53?",
+    "output":"Amazon Route 53 makes it possible for you to manage traffic globally through a variety of routing types, including Latency-Based Routing, Geolocation Routing, and more.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the different instance purchasing options available with Amazon EC2?",
+    "output":"Amazon EC2 offers On-Demand Instances, Reserved Instances, and Spot Instances, each with different pricing models and benefits, including the ability to pay for compute capacity by the hour, reserve capacity for 1 or 3 years, or bid on unused capacity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Machine Learning and how does it work?",
+    "output":"Amazon Machine Learning is a service that makes it easy for developers to use machine learning technology, providing visualization tools and wizards to create machine learning models, and generating predictions for applications using simple APIs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SQS and what are its benefits?",
+    "output":"Amazon Simple Queue Service (Amazon SQS) is a fast, reliable, scalable, fully managed message queuing service that makes it simple and cost-effective to decouple the components of a cloud application, allowing you to transmit any volume of data, at any level of throughput, without losing messages.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS WAF and what does it help protect against?",
+    "output":"AWS WAF is a web application firewall that helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Storage Gateway and what does it provide?",
+    "output":"AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage, providing seamless and secure integration between an organization\u2019s on-premises IT environment and the AWS storage infrastructure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Device Farm and how does it help developers improve the quality of their mobile apps?",
+    "output":"AWS Device Farm is a mobile app-testing service that enables developers to improve the quality of their Android, iOS, and Fire OS apps by quickly and securely testing them on smartphones, tablets, and other devices in the cloud.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon Machine Learning?",
+    "output":"Amazon Machine Learning is highly scalable, can generate billions of predictions daily, and serves those predictions in real-time and at high throughput, with no upfront hardware or software investment, and pay-as-you-go pricing.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon ElastiCache and what are its benefits?",
+    "output":"Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud, improving the performance of web applications by allowing you to retrieve information from fast, managed, in-memory caches.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the design principle behind the isolation of AWS regions and Availability Zones?",
+    "output":"Each region is completely independent and is designed to be completely isolated from the other regions, achieving the greatest possible fault tolerance and stability, with each Availability Zone being isolated but connected to other Availability Zones in the same region through low-latency links.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Inspector and how does it help with security and compliance assessment?",
+    "output":"Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS, automatically assessing applications for vulnerabilities or deviations from best practices, and producing a detailed report with prioritized steps for remediation.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon WorkSpaces and what are its benefits?",
+    "output":"Amazon WorkSpaces is a managed desktop computing service in the cloud that allows customers to easily provision cloud-based desktops that allow end-users to access the documents, applications, and resources they need with the device of their choice, at a cost that is highly competitive with traditional desktops and half the cost of most virtual desktop infrastructure (VDI) solutions.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SES and what are its key features?",
+    "output":"Amazon Simple Email Service (Amazon SES) is a cost-effective email service that allows you to send transactional email, marketing messages, or any other type of high-quality content to your customers, with features such as no required minimum commitments, pay-as-you-go pricing, and the ability to receive messages and deliver them to an Amazon S3 bucket.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Cognito and what benefits does it provide for mobile app development?",
+    "output":"Amazon Cognito is a service that makes it easy to save mobile user data, such as app preferences or game state, in the AWS cloud without writing any back end code or managing any infrastructure, and it offers mobile identity management and data synchronization across devices.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Elastic File System (Amazon EFS) and what are its features?",
+    "output":"Amazon EFS is a shared file system that provides a scalable and durable storage solution for Amazon EC2 instances, allowing for concurrent access to files and directories. It is designed for high-performance and low-latency applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the primary focus of AWS in terms of security?",
+    "output":"Cloud security is job zero at AWS, and all AWS customers benefit from data center architecture and network architecture built to satisfy the requirements of the most security-sensitive organizations.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Config Rules and what does it allow you to do?",
+    "output":"AWS Config Rules lets you choose from a set of pre-built rules based on common AWS best practices or custom rules that you define, allowing you to ensure compliance with guidelines and monitor configuration changes to your AWS resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat benefits do AWS customers inherit in terms of security?",
+    "output":"AWS customers inherit all the best practices of AWS policies, architecture, and operational processes built to satisfy the requirements of the most security-sensitive customers, and get the flexibility and agility they need in security controls.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon DynamoDB used for in building Internet of Things (IoT) applications?",
+    "output":"Amazon DynamoDB is used to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Storage Gateway?",
+    "output":"AWS Storage Gateway provides low-latency performance by maintaining frequently accessed data on-premises while securely storing all of your data encrypted in Amazon S3 or Amazon Glacier, and supports industry-standard storage protocols.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Trusted Advisor and how does it help with resource provisioning?",
+    "output":"AWS Trusted Advisor acts like a customized cloud expert, inspecting your AWS environment and finding opportunities to save money, improve system performance and reliability, or help close security gaps, and provides recommendations for best practices.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of using Amazon EFS for storage capacity?",
+    "output":"With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, so your applications have the storage they need, when they need it.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CloudFormation and how does it simplify resource management?",
+    "output":"AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion. It allows you to create and manage templates to describe AWS resources and their dependencies.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the advantages of cloud computing over traditional IT infrastructure?",
+    "output":"Cloud computing provides six advantages: trade capital expense for variable expense, benefit from massive economies of scale, stop guessing about capacity, increase speed and agility, stop spending money running and maintaining data centers, and go global in minutes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon EC2 provide security for your compute resources?",
+    "output":"Amazon EC2 works in conjunction with Amazon Virtual Private Cloud (Amazon VPC) to provide security and robust networking functionality for your compute resources, including security groups, network access control lists (ACLs), and industry-standard encrypted IPsec virtual private network (VPN) connections.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon EC2 change the economics of computing?",
+    "output":"Amazon EC2 changes the economics of computing by allowing customers to pay only for capacity that they actually use, reducing the need for upfront capital expenditures and lowering operational overhead.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CloudHSM and what does it help with?",
+    "output":"AWS CloudHSM is a service that helps you meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) appliances within the AWS cloud.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon CloudSearch and what features does it support?",
+    "output":"Amazon CloudSearch is a search solution that supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search, allowing you to search and scale a search solution for your website or application.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Data Pipeline and what does it help with?",
+    "output":"AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services as well as on-premises data sources at specified intervals.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Mobile Analytics and what insights does it provide for mobile app developers?",
+    "output":"Amazon Mobile Analytics is a service that helps developers measure app usage and app revenue, and provides insights into key trends such as new versus returning users, app revenue, user retention, and custom in-app behavior events.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon CloudWatch and what monitoring capabilities does it provide?",
+    "output":"Amazon CloudWatch is a monitoring service for AWS cloud resources and applications. It allows you to collect and track metrics, collect and monitor log files, and set alarms. It can monitor AWS resources, custom metrics, and log files generated by applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon WorkMail and what are its benefits?",
+    "output":"Amazon WorkMail is a secure, managed business email and calendaring service with support for existing desktop and mobile email clients, allowing users to seamlessly access their email, contacts, and calendars using Microsoft Outlook, their web browser, or their native iOS and Android email applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is VM Import\/Export and what are its benefits?",
+    "output":"VM Import\/Export enables you to easily import virtual machine images from your existing environment to Amazon EC2 instances and export them back to your on-premises environment, allowing you to leverage your existing investments in virtual machines and deploy workloads across your IT infrastructure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CodeDeploy and how does it automate code deployments?",
+    "output":"AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises. It makes it easier to rapidly release new features, helps avoid downtime during application deployment, and handles the complexity of updating applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat benefits does AWS Data Pipeline provide for data processing workloads?",
+    "output":"AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available, and eliminates the need to worry about ensuring resource availability, managing inter-task dependencies, and more.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon Redshift deliver fast query performance?",
+    "output":"Amazon Redshift delivers fast query performance by using columnar storage technology to improve I\/O efficiency and parallelizing queries across multiple nodes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat database engines are supported by Amazon RDS?",
+    "output":"Amazon RDS provides six familiar database engines to choose from, including Amazon Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL, and MariaDB, and allows you to bring your existing licenses or pay for the license as part of the service with the \u201cLicense Included\u201d option.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does cloud computing impact the speed and agility of an organization?",
+    "output":"Cloud computing reduces the time to make IT resources available to developers from weeks to just minutes, resulting in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon CloudFront deliver content to end users?",
+    "output":"Amazon CloudFront delivers content to end users by automatically routing requests to the nearest edge location, so content is delivered with the best possible performance, and can be used to deliver entire websites, including dynamic, static, streaming, and interactive content.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow are Availability Zones in a region connected?",
+    "output":"Availability Zones in a region are connected through low-latency links, and are physically separated within a typical metropolitan region, located in lower risk flood plains.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon S3 and what are its features?",
+    "output":"Amazon S3 provides safe, secure, and highly-scalable object storage with a simple web service interface for storage and retrieval of data. It offers a range of storage classes, configurable lifecycle policies, and automatic data migration to the most appropriate storage class.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Import\/Export Snowball?",
+    "output":"Transferring data with Snowball is simple, fast, secure, and can be as little as one-fifth the cost of high-speed Internet, making it a cost-efficient solution for large-scale data transfers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Relational Database Service (Amazon RDS) and what does it provide?",
+    "output":"Amazon RDS is a fully managed cost-efficient service that makes it easy to set up, operate, and scale relational databases in the cloud, managing time-consuming database administration tasks, including backups, software patching, monitoring, scaling, and replication.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Identity and Access Management (IAM) and what features does it provide?",
+    "output":"AWS IAM enables you to securely control access to AWS services and resources for your users, allowing you to create and manage users and groups, assign permissions, and manage access to AWS resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS IoT and what does it enable?",
+    "output":"AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices, supporting billions of devices and trillions of messages, and processing and routing those messages reliably and securely.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow can I get started with AWS and what resources are available to help me?",
+    "output":"You can get started with AWS by signing up for the AWS Free Tier, which allows you to gain hands-on experience with a broad selection of AWS products and services, and by viewing short videos that cover topics like creating an account, launching a virtual server, storing media, and more.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Elastic Load Balancing (ELB) help with application scalability and performance?",
+    "output":"Elastic Load Balancing (ELB) automates the distribution of incoming traffic across multiple Amazon EC2 instances, helping to ensure that your application can handle changes in traffic and maintain performance.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat measures are taken to reduce single points of failure in Availability Zones?",
+    "output":"Availability Zones utilize discrete uninterruptable power supply (UPS) and onsite backup generators, and are each fed via different grids from independent utilities to further reduce single points of failure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Config Rules and how does it enable cloud governance?",
+    "output":"AWS Config Rules is a new set of cloud governance capabilities that allow IT administrators to define guidelines for provisioning and configuring AWS resources and then continuously monitor compliance with those guidelines.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Redshift and what are its key features?",
+    "output":"Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service that makes it simple and cost-effective to efficiently analyze all your data using your existing business intelligence tools, with features like columnar storage technology and parallelizing queries across multiple nodes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does cloud computing enable businesses to access IT resources and applications?",
+    "output":"Cloud computing provides a simple way to access servers, storage, databases, and a broad set of application services over the Internet, with cloud computing providers owning and maintaining the network-connected hardware required for these application services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Elastic Load Balancing (ELB) and what does it do?",
+    "output":"Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple Amazon EC2 instances in the cloud, enabling greater levels of fault tolerance in applications and providing seamless load balancing capacity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon CloudSearch and how does it help developers set up and manage search solutions for their websites or applications?",
+    "output":"Amazon CloudSearch is a managed service in the AWS cloud that makes it easy to set up, manage, and scale a search solution for your website or application, and supports 34 languages.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon API Gateway and how does it help developers create and manage APIs?",
+    "output":"Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale, and handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon Web Services (AWS) for storage and content delivery?",
+    "output":"AWS provides a range of storage services, including Amazon S3, Amazon Glacier, and Amazon EBS, which offer scalability, durability, and low-latency performance. These services enable you to store and retrieve data efficiently, while providing significant cost savings compared to on-premises solutions.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Import\/Export Snowball and what does it do?",
+    "output":"AWS Import\/Export Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of AWS, addressing common challenges with large-scale data transfers, including high network costs, long transfer times, and security concerns.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow can customers access and manage AWS services?",
+    "output":"Customers can access and manage AWS services through the AWS Management Console, a simple and intuitive user interface, or the AWS Command Line Interface (CLI), a unified tool to manage AWS services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Kinesis Analytics and what does it enable?",
+    "output":"Amazon Kinesis Analytics is the easiest way to run standard SQL queries against streaming data, enabling real-time analytics and insights.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat level of control do you have over your Amazon EC2 instances?",
+    "output":"You have complete control of your Amazon EC2 instances, with root access to each one, and you can interact with them as you would any machine, including stopping, restarting, and rebooting remotely.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Route 53 and what features does it offer?",
+    "output":"Amazon Route 53 is a service that allows you to manage traffic globally through various routing types, including Latency Based Routing, Geo DNS, and Weighted Round Robin. It also offers domain name registration and automatic DNS configuration.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Service Catalog and what benefits does it provide to organizations?",
+    "output":"AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS, enabling consistent governance, compliance, and quick deployment of approved IT services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon EC2, and what benefits does it provide?",
+    "output":"Amazon EC2 is a web service that provides resizable compute capacity in the cloud, designed to make web-scale computing easier for developers, and provides benefits such as elastic web-scale computing, complete control of computing resources, and reduced time required to obtain and boot new server instances.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the global infrastructure of Amazon Web Services (AWS)?",
+    "output":"AWS serves over a million active customers in more than 190 countries, with a global infrastructure that is steadily expanding to help customers achieve lower latency and higher throughput, and to ensure that their data resides only in the region they specify.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Key Management Service (KMS) and how does it help with encryption key management?",
+    "output":"AWS KMS is a managed service that makes it easy to create and control encryption keys, using Hardware Security Modules (HSMs) to protect key security, and providing logs of all key usage to help meet regulatory and compliance needs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow is AWS infrastructure organized in terms of regions and Availability Zones?",
+    "output":"AWS is available in multiple locations worldwide, composed of regions and Availability Zones, with each region being a named set of AWS resources in the same separate geographic area, and each Availability Zone being isolated but connected through low-latency links.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Config and what capabilities does it provide?",
+    "output":"AWS Config is a fully managed service that provides an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance. It allows you to discover existing AWS resources, export a complete inventory of AWS resources, and determine how a resource was configured at any point in time.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does AWS IAM allow you to manage permissions for users and roles?",
+    "output":"AWS IAM allows you to manage permissions for users and roles, controlling which operations can be performed, and defining which entity is allowed to assume a role.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon EMR and what does it simplify?",
+    "output":"Amazon EMR is a web service that simplifies big data processing, providing a managed Apache Hadoop framework that makes it easy, fast, and cost-effective for you to distribute and process vast amounts of your data.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Glacier and what are its benefits?",
+    "output":"Amazon Glacier is a secure, durable, and extremely low-cost storage service for data archiving and long-term backup, offering significant savings compared to on-premises solutions. It is optimized for infrequently accessed data with a retrieval time of several hours.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat types of data sources does Amazon QuickSight integrate with?",
+    "output":"Amazon QuickSight integrates with AWS data sources, like Amazon Kinesis, Amazon Redshift, or Amazon DynamoDB; flat files such as CSV or text; and third-party sources such as Salesforce.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Virtual Private Cloud (VPC) and what are its key features?",
+    "output":"Amazon VPC lets you provision a logically isolated section of the AWS cloud where you can launch AWS resources in a virtual network that you define, with complete control over your virtual networking environment.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the reliability commitment of Amazon EC2?",
+    "output":"Amazon EC2 offers a highly reliable environment with a service level agreement (SLA) commitment of 99.95% availability for each Amazon EC2 region.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Directory Service and how does it help with connecting AWS resources to on-premises directories?",
+    "output":"AWS Directory Service is a managed service that allows you to connect your AWS resources with an existing on-premises Microsoft Active Directory or set up a new, standalone directory in the AWS cloud, enabling users to access AWS resources with their existing corporate credentials.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the AWS Mobile SDK and what benefits does it provide for mobile app development?",
+    "output":"The AWS Mobile SDK helps developers build high-quality mobile apps quickly and easily, and provides access to AWS Mobile services, mobile-optimized connectors to popular AWS data and storage services, and easy access to a broad array of other AWS services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon Elasticsearch Service?",
+    "output":"Amazon Elasticsearch Service allows you to easily scale your cluster using a single API call or a few clicks in the AWS Management Console, and provides direct access to the Elasticsearch open-source API, making it seamless to work with existing Elasticsearch environments.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CodePipeline and how does it enable continuous delivery?",
+    "output":"AWS CodePipeline is a continuous delivery service that builds, tests, and deploys code every time there is a code change, based on the release process models defined. It enables rapid and reliable delivery of features and updates.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Elastic Beanstalk and what does it do?",
+    "output":"AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with various programming languages and frameworks. It automatically handles deployment, capacity provisioning, load balancing, and auto-scaling, while providing full control over AWS resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the data load speed capabilities of Amazon Redshift?",
+    "output":"Data load speed scales linearly with cluster size, with integrations to Amazon S3, Amazon DynamoDB, Amazon Elastic MapReduce, Amazon Kinesis, or any SSH-enabled host.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SWF and what problem does it solve?",
+    "output":"Amazon Simple Workflow (Amazon SWF) is a fully managed state tracker and task coordinator in the cloud that helps developers build, run, and scale background jobs that have parallel or sequential steps, allowing you to track the state of processing and recover or retry if a task fails.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Config Rules for cloud governance?",
+    "output":"AWS Config Rules enables compliance auditing, security analysis, resource change tracking, and troubleshooting. It allows IT administrators to define guidelines for provisioning and configuring AWS resources and continuously monitor compliance with those guidelines.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does AWS ensure compliance with various security standards?",
+    "output":"AWS environments are continuously audited, with certifications from accreditation bodies across geographies and verticals, and comply with a variety of IT security standards, including SOC 1\/ISAE 3402, SOC 2, SOC 3, FISMA, DIACAP, and FedRAMP.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat resources does AWS provide to help customers meet their security objectives?",
+    "output":"AWS provides hundreds of tools and features to help customers meet their security objectives, including security-specific tools and features across network security, configuration management, access control, and data encryption.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Kinesis and what services does it offer?",
+    "output":"Amazon Kinesis is a platform for streaming data on AWS, offering powerful services to make it easy to load and analyze streaming data, and providing the ability to build custom streaming data applications, with two services: Amazon Kinesis Firehose and Amazon Kinesis Streams.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Kinesis Streams and what does it enable?",
+    "output":"Amazon Kinesis Streams enables building custom applications that process or analyze streaming data for specialized needs, continuously capturing and storing terabytes of data per hour from hundreds of thousands of sources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon EC2 Container Service (Amazon ECS) and what are its features?",
+    "output":"Amazon ECS is a highly scalable, high-performance container management service that supports Docker containers, allowing you to easily run applications on a managed cluster of Amazon EC2 instances. It eliminates the need for cluster management infrastructure and provides features like security groups and Elastic Load Balancing.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does AWS CloudHSM help with key management?",
+    "output":"AWS CloudHSM allows you to protect your encryption keys within HSMs designed and validated to government standards for secure key management, and securely generate, store, and manage the cryptographic keys used for data encryption.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Auto Scaling help with application availability and scalability?",
+    "output":"Auto Scaling helps you maintain application availability and allows you to scale your Amazon EC2 capacity up or down automatically according to conditions you define, ensuring that you are running your desired number of Amazon EC2 instances.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Elastic Block Store (Amazon EBS) and what are its features?",
+    "output":"Amazon EBS provides persistent block-level storage volumes for use with Amazon EC2 instances, offering high availability and durability through automatic replication within its Availability Zone. It provides consistent and low-latency performance and allows for scaling up or down within minutes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat types of frameworks can be run on Amazon EMR?",
+    "output":"Amazon EMR allows you to run other popular distributed frameworks such as Apache Spark and Presto, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.\n",
+    "input":""
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat is a one-time password (OTP), and how does it enhance security?",
+    "output":"A one-time password is a password that is only valid for a single use, reducing the risk of the password being discovered by an unauthorized attacker. OTPs can be generated using a mathematical algorithm, time synchronization protocol, or a challenge-response mechanism.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat is the benefit of implementing one-time passwords?",
+    "output":"One-time passwords can be implemented to reduce the risk of a password being discovered by an attacker.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat are the characteristics of a good security model?",
+    "output":"A good security model should be easy to comprehend, without ambiguity, possible to implement, and reflect the policies of the organization.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat is an example of something you know?",
+    "output":"A password or a PIN number is an example of something you know.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat are the three ways a person can identify themselves?",
+    "output":"A person can identify themselves by using something they are, something they have, or something they know.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat measures can a system take to minimize the risk of a password attack?",
+    "output":"A system can insist that users create a password, provide a default password, enforce password changes, check password choices against a dictionary, and limit log-in attempts.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nHow do one-time passwords typically work, and what is the role of a token in the process?",
+    "output":"One-time passwords typically work by using a token, such as a small electrical keyring or a mobile phone, to generate a new password based on a mathematical algorithm, time synchronization protocol, or a challenge-response mechanism.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat is phishing, and how does it work?",
+    "output":"Phishing is a type of attack where communications, such as emails or instant messages, purporting to be from reliable sites, direct users to a fake website that looks like the genuine one, asking for their username, password, and bank details.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nHow does the system verify a user's password using a one-way function?",
+    "output":"The system computes f(x') where x' is the password entered by the user, and checks if there is a match between the stored f(x) and f(x'), if they match, the user is verified.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat are some of the threats to identification and authentication systems, and how can they be identified?",
+    "output":"Threats to identification and authentication systems include password guessing attacks, password spoofing attacks, and other types of attacks. These threats can be identified by understanding the concepts of identification and authentication and being aware of the potential vulnerabilities of user-name\/password systems.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat are the two stages in the process of identification?",
+    "output":"The two stages are: 1) A user-name is used to establish identity, and 2) A password is used to establish authentication of identity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat is integrity in the context of computer security, and how does it relate to data integrity?",
+    "output":"Integrity is the prevention of unauthorized writing or modification of information. Data integrity means that the data stored on the computer is the same as what is intended, and there is an external consistency in the system.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cyber Security:\nWhat is the main focus of the book \"Security in Computing\" by C. Pfeeger and S. Pfeeger?",
+    "output":"The book introduces the core concepts of computer security and identifies and assesses the threats currently facing programs, operating systems, database systems, and networks.\n",
+    "input":""
+  }
+]

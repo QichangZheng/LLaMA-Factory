@@ -1,0 +1,87 @@
+[
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you prevent unauthorized access to user home folders?",
+    "output":"You can modify the adduser global default permissions when creating user home folders by editing the file \/etc\/adduser.conf and modifying the DIR_MODE variable to something appropriate, such as DIR_MODE=0750.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the default minimum password length in Ubuntu, and how can it be adjusted?",
+    "output":"The default minimum password length in Ubuntu is 4 characters, but it can be adjusted by modifying the file \/etc\/pam.d\/common-password, specifically the \"min\" variable, for example, changing it to min=6.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can the root account be enabled in Ubuntu?",
+    "output":"To enable the root account, simply give it a password using the command \"sudo passwd\", and then enter a new password for root.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can users carry out system administrative duties in Ubuntu?",
+    "output":"Users can use the tool \"sudo\" (Super User Do) to temporarily elevate their privileges using their own password, instead of having to know the password belonging to the root account.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you verify the directory permissions of a user's home folder?",
+    "output":"You can use the syntax \"ls -ld \/home\/username\" to verify the directory permissions of a user's home folder, which will show that world readable permissions have been removed.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow do you add a permitted SSH user and restart the SSH service?",
+    "output":"To add a permitted SSH user, add the user to the group \"sshlogin\" using the command \"sudo adduser username sshlogin\" and then restart the SSH service using the command \"sudo \/etc\/init.d\/ssh restart\".",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat does the \"max\" variable in the \/etc\/pam.d\/common-password file represent?",
+    "output":"The \"max\" variable in the \/etc\/pam.d\/common-password file does not represent the maximum length of a password, but rather means that complexity requirements will not be checked on passwords over 8 characters.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the default state of the root account in Ubuntu installations?",
+    "output":"The root account is disabled by default in all Ubuntu installations, meaning it has been given a password that matches no possible encrypted value, and therefore cannot log in directly.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhy is it important to understand and control alternate authentication mechanisms used by applications?",
+    "output":"It is important to understand and control alternate authentication mechanisms used by applications, as many applications use mechanisms that can be easily overlooked by even experienced system administrators, and can allow users to gain access to services and applications on your server.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the default group membership of the initial user created by the Ubuntu installer?",
+    "output":"The initial user created by the Ubuntu installer is a member of the group \"admin\", which is added to the file \/etc\/sudoers as an authorized sudo user.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the importance of a strong password policy in security posture?",
+    "output":"A strong password policy is one of the most important aspects of your security posture, as many successful security breaches involve simple brute force and dictionary attacks against weak passwords.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is user management and why is it important?",
+    "output":"User management is a critical part of maintaining a secure system, and ineffective user and privilege management can lead to system compromise. Therefore, understanding how to protect your server through simple and effective user account management techniques is important.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can a user account be deleted in Ubuntu?",
+    "output":"To delete a user account and its primary group, use the command \"sudo deluser username\", but note that this does not remove the user's home folder.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can the world readable permissions be removed from a user's home directory in Ubuntu?",
+    "output":"To remove the world readable permissions, use the command \"sudo chmod 0750 \/home\/username\", which will prevent unauthorized access to the directory and its contents.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can a new user account be added in Ubuntu?",
+    "output":"To add a new user account, use the command \"sudo adduser username\", and follow the prompts to give the account a password and identifiable characteristics.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you set password expiration policies for a user account?",
+    "output":"You can use the syntax \"sudo chage username\" to set password expiration policies for a user account, and follow the interactive prompts, or use the syntax \"sudo chage -E 01\/31\/2008 -m 5 -M 90 -I 30 -W 14 username\" to manually change the explicit expiration date and other policies.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the default permission setting for user home directories in Ubuntu?",
+    "output":"By default, user home directories in Ubuntu are created with world read\/execute permissions, meaning all users can browse and access the contents of other users' home directories.\n",
+    "input":""
+  }
+]

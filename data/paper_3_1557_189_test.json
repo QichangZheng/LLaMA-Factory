@@ -1,0 +1,12 @@
+[
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can the root account be disabled in Ubuntu?",
+    "output":"To disable the root account, use the command \"sudo passwd -l root\".\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you view the current status of a user account, including password expiration policies?",
+    "output":"You can use the syntax \"sudo chage -l username\" to view the current status of a user account, including password expiration policies.\n",
+    "input":""
+  }
+]

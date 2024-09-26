@@ -2,38 +2,71 @@
   "identity": {
     "file_name": "identity.json"
   },
-  "Adventures_with_the_Linux_Command_Line": {
-    "file_name": "Adventures_with_the_Linux_Command_Line.json"
+  "Adventures_with_the_Linux_Command_Line_train": {
+    "file_name": "Adventures_with_the_Linux_Command_Line_train.json"
   },
-  "aws-overview": {
-    "file_name": "aws-overview.json"
+  "aws-overview_train": {
+    "file_name": "aws-overview_train.json"
   },
-  "aws-services": {
-    "file_name": "aws-services.json"
+  "aws-services_train": {
+    "file_name": "aws-services_train.json"
   },
-  "CCF_Digital_Notes": {
-    "file_name": "CCF_Digital_Notes.json"
+  "CCF_Digital_Notes_train": {
+    "file_name": "CCF_Digital_Notes_train.json"
   },
-  "computer-security": {
-    "file_name": "computer-security.json"
+  "computer-security_train": {
+    "file_name": "computer-security_train.json"
   },
-  "Computer_Networking___A_Top_Down_Approach,_7th,_converted": {
-    "file_name": "Computer_Networking___A_Top_Down_Approach,_7th,_converted.json"
+  "Computer_Networking___A_Top_Down_Approach,_7th,_converted_train": {
+    "file_name": "Computer_Networking___A_Top_Down_Approach,_7th,_converted_train.json"
   },
-  "Linux_Administration_Handbook_2nd_Edition": {
-    "file_name": "Linux_Administration_Handbook_2nd_Edition.json"
+  "Linux_Administration_Handbook_2nd_Edition_train": {
+    "file_name": "Linux_Administration_Handbook_2nd_Edition_train.json"
   },
-  "Linux_User_Management": {
-    "file_name": "Linux_User_Management.json"
+  "Linux_User_Management_train": {
+    "file_name": "Linux_User_Management_train.json"
   },
-  "The_Linux_Programming_Interface": {
-    "file_name": "The_Linux_Programming_Interface.json"
+  "The_Linux_Programming_Interface_train": {
+    "file_name": "The_Linux_Programming_Interface_train.json"
   },
-  "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition": {
-    "file_name": "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition.json"
+  "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_train": {
+    "file_name": "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_train.json"
   },
-  "Users_Groups_Processes_Permissions": {
-    "file_name": "Users_Groups_Processes_Permissions.json"
+  "Users_Groups_Processes_Permissions_train": {
+    "file_name": "Users_Groups_Processes_Permissions_train.json"
+  },
+  "Adventures_with_the_Linux_Command_Line_test": {
+    "file_name": "Adventures_with_the_Linux_Command_Line_test.json"
+  },
+  "aws-overview_test": {
+    "file_name": "aws-overview_test.json"
+  },
+  "aws-services_test": {
+    "file_name": "aws-services_test.json"
+  },
+  "CCF_Digital_Notes_test": {
+    "file_name": "CCF_Digital_Notes_test.json"
+  },
+  "computer-security_test": {
+    "file_name": "computer-security_test.json"
+  },
+  "Computer_Networking___A_Top_Down_Approach,_7th,_converted_test": {
+    "file_name": "Computer_Networking___A_Top_Down_Approach,_7th,_converted_test.json"
+  },
+  "Linux_Administration_Handbook_2nd_Edition_test": {
+    "file_name": "Linux_Administration_Handbook_2nd_Edition_test.json"
+  },
+  "Linux_User_Management_test": {
+    "file_name": "Linux_User_Management_test.json"
+  },
+  "The_Linux_Programming_Interface_test": {
+    "file_name": "The_Linux_Programming_Interface_test.json"
+  },
+  "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_test": {
+    "file_name": "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_test.json"
+  },
+  "Users_Groups_Processes_Permissions_test": {
+    "file_name": "Users_Groups_Processes_Permissions_test.json"
   },
 
   "linux_kernel1_train": {
