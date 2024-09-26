@@ -1,12 +1,12 @@
 [
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow do you lock a user's account?",
-    "output":"You can lock a user's account by using the command \"sudo usermod -L <username>\", for example, \"sudo usermod -L ali\".\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat does the output of the \"ls -l\" command represent?",
+    "output":"The output of the \"ls -l\" command represents the file type, permissions, link count, owner, group, size, and modification time\/date of a file.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat are some examples of process management commands in Linux, and what do they do?",
-    "output":"Some examples of process management commands in Linux include top, bg, fg, kill, killall, and pid. These commands allow users to view and manage running processes, including starting suspended processes in the background or foreground, killing or stopping processes, and finding the process ID of a running program.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow do you switch to a new user in the system?",
+    "output":"You can switch to a new user in the system by using the command \"su - <username>\", for example, \"su - ahmed\".\n",
     "input":""
   }
 ]

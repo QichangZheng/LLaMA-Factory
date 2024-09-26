@@ -1,97 +1,102 @@
 [
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow can you discard the output of a command?",
-    "output":"You can discard the output of a command by redirecting it to the file \/dev\/null. For example, command > \/dev\/null will discard the output of the command.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow to terminate a running process in Linux?",
+    "output":"You can terminate a running process by using the kill command. To use this utility, you need to know the PID (process id) of the process you want to kill. The syntax is: kill PID.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow can you search for a package using YUM if you don't remember the exact name?",
-    "output":"You can use the `search` function to search all available packages that match the name of the package you specified, for example, `yum search vsftpd`.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the sudo command in Linux?",
+    "output":"The sudo command allows an ordinary user to execute commands as a different user (usually the superuser) in a controlled and limited way, with restrictions set by the sysadmin.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow do you configure an SSH server in RHEL, and what RPMs are required?",
-    "output":"To configure an SSH server in RHEL, you need to install the necessary RPM packages (openssh-server and openssh), check the current status of the sshd service, start it if it's stopped, and configure it to start at boot time.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat information can be found in the \/proc directory's numbered directories?",
+    "output":"The \/proc directory's numbered directories contain information about the processes running on the system, including files and links such as cmdline, environ, fd, limits, mounts, cwd, exe, and root.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat specific files in the \/proc filesystem provide information about system memory, loaded kernel modules, and uptime?",
-    "output":"The \/proc filesystem provides specific files such as \/proc\/meminfo for information about system memory, \/proc\/modules for currently loaded kernel modules, and \/proc\/uptime for uptime information (in seconds).",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the locate command in Linux, and how is it different from the find command?",
+    "output":"The locate command is a faster alternative to the find command, as it only scans the Linux database instead of the whole system, and has a simpler syntax.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the `tcpdump` command in network management?",
-    "output":"The `tcpdump` command is a packet sniffing tool that listens to network traffic and prints packet information based on the criteria defined by the user.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you create a new file using the vi editor in Linux?",
+    "output":"To create a new file, use the command $ vi filename, then press the key i to enter edit mode, and start writing your content.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat are the open ports and services detected by the Nmap scan on the system with hostname server2?",
-    "output":"The open ports and services detected are 22\/tcp open ssh, 80\/tcp open http, 111\/tcp open rpcbind, 957\/tcp open unknown, 3306\/tcp open mysql, and 8888\/tcp open sun-answerbook.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the meaning of the output of the `tcpdump` command?",
+    "output":"The output of the `tcpdump` command shows the packet information, including the source and destination IP addresses, ports, and protocols, as well as the packet length and timestamp.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is RPM, and what is its purpose in Red Hat Enterprise Linux-based distros?",
-    "output":"RPM (RPM Package Manager) is a popular package management tool that allows you to install, uninstall, and query individual software packages, although it cannot manage dependency resolution like YUM.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you install a package with YUM?",
+    "output":"To install a package with YUM, simply run the command \"yum install <package_name>\", and YUM will automatically find and install all required dependencies.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat does the execute permission mean in the context of a directory?",
-    "output":"Executing a directory doesn't really make sense, so think of this as a traverse permission, which allows a user to access the directory and its contents.",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the syntax for creating a new directory in Linux?",
+    "output":"The syntax for creating a new directory is \"mkdir dirname\", where dirname is the absolute or relative pathname of the directory you want to create.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow can you install the locate package in Linux?",
-    "output":"You can install the locate package by running the commands \"sudo apt-get update\" and \"sudo apt-get install mlocate\".\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat are some of the common port numbers assigned by the Internet Assigned Numbers Authority (IANA) for services like FTP, SSH, and HTTP?",
+    "output":"Some common port numbers are 20 and 21 for FTP, 22 for SSH, 23 for Telnet, 25 for SMTP, 53 for DNS, 80 for HTTP, and others, which are used for various services like file transfer, remote login, email routing, and more.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is an indication that a server is using all its resources?",
-    "output":"If top and vmstat indicate that the server is using all its resources, it is an indication that the load it is being placed under is too great for the resources it has available.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you display the content of a file in Linux?",
+    "output":"You can use the cat command to display the content of a file, such as $ cat filename.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat are the available options for the `fsck` command in Linux?",
-    "output":"The `fsck` command has several options, including `-A` to check all filesystems, `-C` to show progress bar, `-l` to lock the device, and `-N` to show what would be done without making actual changes.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you search for files based on their type in Linux?",
+    "output":"You can use the find command with the -type option, followed by the type of file you are looking for, such as \"find \/ -type d\" to list all directories.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat are the three generations of kernel-based IP filtering in Linux?",
-    "output":"The three generations of kernel-based IP filtering in Linux are ipfw, IP chains, and netfilter\/iptables, each with its own configuration mechanism.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the -delete option in the find command?",
+    "output":"The -delete option in the find command allows you to delete the files that match the search criteria, for example: \"find . -name my-file -delete\".",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the `ip neigh add` command in network management?",
-    "output":"The `ip neigh add` command is used to add a new ARP entry, which can be used to make a neighbour apparently reachable.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat are some common Linux networking commands used for network inspection, analysis, maintenance, and troubleshooting?",
+    "output":"Some common Linux networking commands include `ifconfig`, `ip`, `traceroute`, `ping`, `netstat`, `ss`, `dig`, `nslookup`, and `tcpdump`, among others.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the mount command, and what does it do?",
-    "output":"The mount command is used to attach a filesystem to a directory, making it accessible and part of the file hierarchy. It can also be used to detach a filesystem.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the `fsck` command in Linux?",
+    "output":"The `fsck` command is used to check and repair filesystem errors in Linux. It can be run automatically during boot time or manually.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat are the four main modes of operation in the tar utility?",
-    "output":"The four main modes of operation in the tar utility are: c \u2013 Create an archive from a file or directory, x \u2013 Extract archive, r \u2013 Append file to archive, and t - List the contents of the archive.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nCan you remove multiple directories at once using the rmdir command?",
+    "output":"Yes, you can remove multiple directories at once by listing them separated by spaces, such as \"rmdir dirname1 dirname2 dirname3\".\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat determines the actions that the owner of a file can perform on the file?",
-    "output":"The owner's permissions determine what actions the owner of the file can perform on the file.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the chage command in Linux?",
+    "output":"The chage command is used to check the current account expiry status of a user, including the last password change, password expiry, password inactive, account expiry, and other related information.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow can you copy a file in Linux?",
-    "output":"To make a copy of a file, use the cp command, such as $ cp source_file destination_file, which will create a copy of the original file.",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat default actions are performed when a new user account is added to the system, and what are the resulting changes to the user's home directory?",
+    "output":"When a new user account is added to the system, the following operations are performed: the user's home directory is created (\/home\/username by default), and the following hidden files are copied into the user's home directory to provide environment variables.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat does the -a option do when used with the mount command, and what is its purpose?",
-    "output":"The -a option tells the mount command to mount all filesystems mentioned in the \/etc\/fstab file. It can be used to mount multiple filesystems at once.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the mv command in Linux?",
+    "output":"The mv command can be used to rename a directory, as well as move files from one location to another.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is the PS command in Linux?",
-    "output":"The PS command stands for 'Process Status'. It is similar to the \"Task Manager\" that pop-ups in a Windows Machine when we use Cntrl+Alt+Del. This command is similar to 'top' command but the information displayed is different.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the purpose of the vmstat command?",
+    "output":"The vmstat command is used to display virtual memory statistics, including the amount of free memory, and the amount of data being transferred between the system's swap and its memory.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the syntax for using the `traceroute` command?",
+    "output":"The syntax is `traceroute {IP-ADDRESS}`, where `{IP-ADDRESS}` is the IP address of the destination host.\n",
     "input":""
   },
   {
@@ -100,13 +105,8 @@
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat is the \"free\" command used for in Linux?",
-    "output":"The \"free\" command is used to show the free and used memory (RAM) on the Linux system.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux User Management:\nWhat are some of the common port numbers assigned by the Internet Assigned Numbers Authority (IANA) for services like FTP, SSH, and HTTP?",
-    "output":"Some common port numbers are 20 and 21 for FTP, 22 for SSH, 23 for Telnet, 25 for SMTP, 53 for DNS, 80 for HTTP, and others, which are used for various services like file transfer, remote login, email routing, and more.",
+    "instruction":"The following question is relevant to Linux User Management:\nHow to keep a Background Process running after a Shell Exits in Linux?",
+    "output":"To keep a process running after the shell exit, you can use the nohup command. The nohup command executes another program specified as its argument and ignores all SIGHUP (hangup) signals.\n",
     "input":""
   }
 ]

@@ -1,222 +1,32 @@
 [
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Athena and how does it simplify data analysis?",
-    "output":"Amazon Athena is a service that allows you to analyze data in Amazon S3 using standard SQL, without the need for complex extract, transform, and load (ETL) jobs. Most results are delivered within seconds, making it easy for anyone with SQL skills to quickly analyze large-scale datasets.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Key Management Service (AWS KMS) and what does it do?",
+    "output":"AWS KMS makes it easy to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications, using hardware security modules (HSM) to protect and validate your AWS KMS keys.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon SageMaker Edge enable machine learning on edge devices?",
-    "output":"Amazon SageMaker Edge enables machine learning on edge devices by optimizing, securing, and deploying models to the edge, and then monitoring these models on your fleet of devices, allowing for real-time inference and reduced latency.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat features does AWS Step Functions provide for building and running multi-step applications?",
+    "output":"AWS Step Functions provides a graphical console to arrange and visualize the components of your application as a series of steps, automatically initiates and tracks each step, and retries when there are errors, so your application runs in order and as expected.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SageMaker Edge and what are its key features?",
-    "output":"Amazon SageMaker Edge enables machine learning on edge devices by optimizing, securing, and deploying models to the edge, and then monitoring these models on your fleet of devices, with features like SageMaker Edge Compiler, over-the-air (OTA) deployment mechanism, and SageMaker Edge Agent.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat features does Amazon Polly offer for speech-enabled applications?",
+    "output":"Amazon Polly includes a wide selection of lifelike voices spread across dozens of languages, fast response times, and the ability to cache and save speech audio for offline replay or redistribution.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS App Mesh and what does it do?",
-    "output":"AWS App Mesh makes it easy to monitor and control microservices running on AWS, standardizing how your microservices communicate, giving you end-to-end visibility and helping to ensure high-availability for your applications.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the benefit of using AWS App Runner for deploying web applications?",
+    "output":"With AWS App Runner, you have more time to focus on your applications, rather than thinking about servers or scaling, as it automatically builds and deploys the web application and load balances traffic with encryption.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Elastic Container Registry (Amazon ECR) and what does it offer?",
-    "output":"Amazon ECR is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images, eliminating the need to operate your own container repositories or worry about scaling the underlying infrastructure.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon DevOps Guru and what does it do?",
+    "output":"Amazon DevOps Guru is a machine learning-powered service that makes it easy to improve an application\u2019s operational performance and availability, detecting behaviors that deviate from normal patterns and providing recommendations for improvement.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SageMaker Data Wrangler and what does it do?",
-    "output":"Amazon SageMaker Data Wrangler reduces the time it takes to aggregate and prepare data for ML from weeks to minutes, simplifying the process of data preparation and feature engineering, and completing each step of the data preparation workflow from a single visual interface.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Hugging Face on Amazon SageMaker?",
-    "output":"Hugging Face on Amazon SageMaker allows users to deploy and fine-tune pre-trained models from Hugging Face, an open-source provider of natural language processing (NLP) models known as Transformers, reducing the time it takes to set up and use these NLP models from weeks to minutes.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Shield Advanced?",
-    "output":"The benefits of using AWS Shield Advanced include near real-time visibility into attacks, integration with AWS WAF, 24x7 access to the AWS DDoS Response Team (DRT), and protection against DDoS-related spikes in Amazon Elastic Compute Cloud (Amazon EC2), Elastic Load Balancing (ELB), Amazon CloudFront, and Amazon Route 53 charges.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is VMware Cloud on AWS and what does it offer?",
-    "output":"VMware Cloud on AWS is an integrated cloud offering jointly developed by AWS and VMware, delivering a highly scalable, secure and innovative service that allows organizations to seamlessly migrate and extend their on-premises VMware vSphere-based environments to the AWS Cloud.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon Textract overcome manual and expensive processes of data extraction?",
-    "output":"Amazon Textract uses ML to read and process any type of document, accurately extracting text, handwriting, tables, and other data with no manual effort, and providing the flexibility to specify the data needed to extract from documents using queries.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are some examples of how AWS Entity Resolution can be used in different applications?",
-    "output":"AWS Entity Resolution can be used in various applications, such as advertising and marketing campaigns, loyalty programs, and e-commerce, to personalize experiences, create customer profiles, and remove duplicate records.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the available regions for VMware Cloud on AWS?",
-    "output":"VMware Cloud on AWS is available in US West (Oregon), AWS Canada (Central), AWS Europe (Frankfurt), AWS Europe (Ireland), AWS Europe (London), AWS Europe (Paris), AWS Europe (Milan), AWS Asia Pacific (Singapore), AWS Asia Pacific (Sydney), AWS Asia Pacific (Tokyo), AWS Asia Pacific (Mumbai) Region, AWS South America (Sao Paulo), AWS Asia Pacific (Seoul), and AWS GovCloud (US West).\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nHow does Patch Manager help with software patching in AWS Systems Manager?",
-    "output":"Patch Manager helps you select and deploy operating system and software patches automatically across large groups of instances, and define a maintenance window so that patches are applied only during set times that fit your needs.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the purpose of ms Manager Run Command and State Manager?",
-    "output":"ms Manager Run Command and State Manager are used to define who can install packages on your hosts.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon DocumentDB (with MongoDB compatibility) simplify database management for MongoDB workloads?",
-    "output":"Amazon DocumentDB (with MongoDB compatibility) simplifies database management for MongoDB workloads by providing a fully managed service that automates time-consuming tasks such as server provisioning, software patching, setup, configuration, or data retention and tiering.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the relationship between AWS Amplify and other AWS services, such as AWS AppSync and AWS Device Farm?",
-    "output":"AWS Amplify is part of the AWS Front-end web and mobile category, which also includes AWS AppSync, AWS Device Farm, and Amazon Location Service. These services work together to provide a comprehensive solution for mobile application development and deployment.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is IAM Identity Center and what does it allow you to do?",
-    "output":"IAM Identity Center allows you to manage user access across multiple AWS accounts, enabling a highly available service, easily managing multi-account access, and centrally managing permissions to all of your accounts in AWS Organizations.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon File Cache and what does it do?",
-    "output":"Amazon File Cache is a fully managed high-speed cache on AWS that makes it easier to process file data, regardless of where the data is stored, and provides temporary, high-performance storage for data in on-premises file systems or in file systems or object stores on AWS.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Comprehend Medical and what does it do?",
-    "output":"Amazon Comprehend Medical is a service that extracts complex medical information from unstructured text, identifying medical conditions, medications, dosages, strengths, and frequencies from sources like doctor\u2019s notes, clinical trial reports, and patient health records.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are some of the business applications offered by AWS?",
-    "output":"Some of the business applications offered by AWS include Alexa for Business, AWS AppFabric, Amazon Chime, Amazon Chime SDK, Amazon Connect, Amazon Pinpoint, Amazon SES, Amazon WorkDocs, and Amazon WorkMail.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon GuardDuty identify suspected attackers and what happens when potential unauthorized use is detected?",
-    "output":"GuardDuty identifies suspected attackers through integrated threat intelligence feeds and machine learning anomaly detection, and when potential unauthorized use is detected, the service delivers a detailed finding to the GuardDuty console, Amazon CloudWatch Events, and AWS Security Hub.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Managed Grafana and what features does it provide?",
-    "output":"Amazon Managed Grafana is a fully managed and secure data visualization service that provides built-in security features for compliance with corporate governance requirements, including single sign-on, data access control, and audit reporting. It also integrates with AWS data sources and supports many popular open-source, third-party, and other cloud data sources.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon DocumentDB (with MongoDB compatibility) and what benefits does it provide?",
-    "output":"Amazon DocumentDB (with MongoDB compatibility) is a fast, scalable, highly available, and fully managed document database service that supports MongoDB workloads, providing the performance, scalability, and availability needed for modern applications.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Q?",
-    "output":"Amazon Q is a generative AI-powered assistant for accelerating software development and leveraging your internal data.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Launch Wizard?",
-    "output":"AWS Launch Wizard provides an estimated cost of deployment, allows users to modify resources to instantly view an updated cost assessment, and automatically provisions and configures the selected resources to create a fully-functioning, production-ready application.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Resource Access Manager (AWS RAM) and what does it do?",
-    "output":"AWS RAM helps you securely share your resources across AWS accounts, within your organization or organizational units (OUs) in AWS Organizations, and with IAM roles and IAM users for supported resource types.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Corretto and what are its features?",
-    "output":"Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK) that comes with long-term support, including performance enhancements and security fixes, and is certified as compatible with the Java SE standard.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the different types of databases available on AWS?",
-    "output":"The different types of databases available on AWS include Relational, Key-value, In-memory, Document, Wide column, Graph, Time series, and Ledger databases.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon DocumentDB designed for?",
-    "output":"Amazon DocumentDB is designed from the ground-up to give you the performance, scalability, and availability you need when operating mission-critical MongoDB workloads at scale.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Application Discovery Service and what does it help enterprise customers with?",
-    "output":"AWS Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers, collecting and presenting configuration, usage, and behavior data from servers to help understand workloads.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon SageMaker for ML development and deployment?",
-    "output":"Amazon SageMaker provides a variety of benefits for ML development and deployment, including reducing the time and cost to train and tune ML models at scale, making it easy to deploy ML models to make predictions, and providing a broad selection of ML infrastructure and model deployment options.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS IoT FleetWise, and how does it help collect and organize vehicle data for analysis in the cloud?",
-    "output":"AWS IoT FleetWise is a service that helps collect and organize vehicle data and store it in a standardized way for data analysis in the cloud, allowing users to efficiently transfer data to the cloud in near real-time using intelligent data collection capabilities.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Inspector and what does it do?",
-    "output":"Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are AWS Elemental Appliances and Software solutions and what do they offer?",
-    "output":"AWS Elemental Appliances and Software solutions bring advanced video processing and delivery technologies into your data center, co-location space, or on-premises facility, allowing you to deploy and connect with cloud-based video infrastructure.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon Timestream over traditional relational databases?",
-    "output":"Amazon Timestream is a purpose-built time series database that efficiently stores and processes time series data, making it 1\/10th the cost of relational databases, and it also automates rollups, retention, tiering, and compression of data.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Savings Plans and what are its benefits?",
-    "output":"Savings Plans is a flexible pricing model that offers lower prices compared to On-Demand pricing, in exchange for a specific usage commitment for a one or three-year term. It benefits users by providing a cost-effective way to use AWS services.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon Managed Service for Prometheus integrate with AWS security services?",
-    "output":"Amazon Managed Service for Prometheus integrates with AWS security services to enable fast and secure access to data. It is designed to be highly available, with data ingested into a workspace replicated across three Availability Zones in the same AWS Region.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Application Integration and what services does it include?",
-    "output":"AWS Application Integration is a category of services that includes AWS Step Functions, Amazon AppFlow, AWS B2B Data Interchange, Amazon EventBridge, Amazon Managed Workflows for Apache Airflow (MWAA), Amazon MQ, Amazon Simple Notification Service, Amazon Simple Queue Service, and Amazon Simple Workflow Service.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Security Hub and what does it do?",
-    "output":"AWS Security Hub is a cloud security posture management service that performs automated, continuous security best practice checks against AWS resources, and it aggregates security alerts from various AWS services and partner products in a standardized format.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon Forecast?",
-    "output":"Amazon Forecast can produce forecasts that are up to 50% more accurate than looking at time series data alone. It is a fully managed service, so there are no servers to provision, and no ML models to build, train, or deploy. You pay only for what you use, and there are no minimum fees and no upfront commitments.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the capabilities of Amazon Q Business?",
-    "output":"Amazon Q Business can answer questions, provide summaries, generate content, and securely complete tasks based on data and information in your enterprise systems.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the two variants of AWS Outposts?",
-    "output":"AWS Outposts come in two variants: VMware Cloud on AWS Outposts and AWS-native variant of AWS Outposts, which allow you to use the same VMware control plane and APIs or the same exact APIs and control plane as in the AWS Cloud, but on-premises.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Aurora and how does it compare to standard MySQL and PostgreSQL databases?",
-    "output":"Amazon Aurora is a QL and PostgreSQL compatible relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases. It is up to five times faster than standard MySQL databases and three times faster than standard PostgreSQL databases.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Step Functions to coordinate distributed applications?",
-    "output":"Using AWS Step Functions allows you to build scalable and fault-tolerant applications, and it eliminates the need for manual, complicated, and time-consuming tasks involved in coordinating distributed applications.",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CloudHSM?",
+    "output":"AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud, using dedicated FIPS 140-2 Level 3 validated HSMs.\n",
     "input":""
   },
   {
@@ -225,58 +35,178 @@
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Reserved Instance (RI) reporting and what are its features?",
-    "output":"RI reporting provides a number of RI-specific cost management solutions to help users better understand and manage their RIs. It includes features such as RI Utilization and Coverage reports, and the ability to set a custom RI utilization target via AWS Budgets.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the relationship between AWS Elemental MediaTailor and content delivery networks, ad decision servers, and client devices?",
+    "output":"AWS Elemental MediaTailor works with a wider variety of content delivery networks, ad decision servers, and client devices, making it easy to integrate with existing infrastructure.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Neptune and what use cases is it suitable for?",
-    "output":"Amazon Neptune is a graph database service that builds and runs graph applications with highly connected datasets, suitable for fraud detection, social networking, and recommendation engines.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon EC2 pricing work?",
+    "output":"Amazon EC2 passes on the financial benefits of Amazon scale to users, who pay a low rate for the compute capacity actually consumed, with no long-term commitments or upfront payments needed.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Route 53 and what does it do?",
-    "output":"Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service that translates human-readable names into numeric IP addresses, connecting user requests to infrastructure running in AWS or outside of AWS.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon Linux 2023 improve security compared to Amazon Linux 2?",
+    "output":"Amazon Linux 2023 takes a security-by-default approach, with preconfigured security policies, SELinux in permissive mode, and IMDSv2 enabled by default, as well as kernel live patching, to improve security posture.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon EC2 and what does it provide?",
-    "output":"Amazon EC2 is a web service that provides secure, resizable compute capacity in the cloud, making web-scale computing easier for developers.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is cloud computing?",
+    "output":"Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS CloudTrail for security analysis, resource change tracking, and compliance auditing?",
-    "output":"CloudTrail provides a history of AWS API calls, enabling security analysis, resource change tracking, and compliance auditing, including API calls made using the AWS Management Console, AWS SDKs, command line tools, and higher-level AWS services.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nHow can you manage your Lightsail-managed database?",
+    "output":"You can manage your Lightsail-managed database by using the Lightsail console, the AWS Command Line Interface (AWS CLI), the Lightsail API, or an AWS SDK.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS OpsWorks and what benefits does it provide to users?",
-    "output":"AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet, allowing users to automate the configurations of their servers. It lets users use Chef and Puppet to automate how servers are configured, deployed, and managed across their Amazon EC2 instances or on-premises compute environments.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does cloud computing provide a simple way to access servers, storage, and databases?",
+    "output":"Cloud computing provides a simple way to access servers, storage, databases, and a broad set of application services over the internet, with the cloud services platform owning and maintaining the network-connected hardware required for these application services.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Batch and how does it work?",
-    "output":"AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS, dynamically provisioning the optimal quantity and type of compute resources based on the volume and specific resource requirements of the batch jobs submitted.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Managed Grafana and what features does it provide?",
+    "output":"Amazon Managed Grafana is a fully managed and secure data visualization service that provides built-in security features for compliance with corporate governance requirements, including single sign-on, data access control, and audit reporting. It also integrates with AWS data sources and supports many popular open-source, third-party, and other cloud data sources.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Polly Brand Voice?",
-    "output":"Amazon Polly Brand Voice is a custom engagement where you work with the Amazon Polly team to build an NTTS voice for the exclusive use of your organization.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the shared responsibility model in AWS Cloud Compliance?",
+    "output":"Compliance is a shared responsibility between AWS and the customer, with AWS providing robust controls for security and data protection, and customers responsible for operating and building on top of these controls.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is aConnect and what problem does it solve for broadcasters and content owners?",
-    "output":"aConnect is a high-quality transport service for live video that solves the problem of expensive and inflexible satellite and fiber connections, providing a more reliable and secure way to send high-value content into the cloud or to transmit it to partners for distribution.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is a microcontroller (MCU) and where is it commonly found?",
+    "output":"A microcontroller (MCU) is a single chip containing a simple processor that can be found in many devices, including appliances, sensors, fitness trackers, and industrial equipment.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is a private cloud (on-premises) deployment model?",
-    "output":"A private cloud (on-premises) deployment model is the deployment of resources on-premises, using virtualization and resource management tools, which provides dedicated resources but doesn't offer many benefits of cloud computing.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Monitron and how does it enable predictive maintenance?",
+    "output":"Amazon Monitron uses ML to detect abnormal behavior in industrial machinery, enabling predictive maintenance and reducing unplanned downtime. It includes sensors, a gateway device, and a service that analyzes data for abnormal machine patterns using ML.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat type of information can be collected and queried using the Inventory feature in AWS Systems Manager?",
-    "output":"The Inventory feature helps you collect and query configuration and inventory information about your instances and the software installed on them, including details such as installed applications, DHCP settings, agent detail, and custom items.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does AWS Chatbot manage integration between AWS services and Slack channels or Amazon Chime chat rooms?",
+    "output":"AWS Chatbot manages the integration between AWS services and your Slack channels or Amazon Chime chat rooms, helping you to get started with ChatOps fast. It allows you to start receiving notifications and issuing commands in your chosen channels or chat rooms with just a few clicks.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat type of data can be viewed in the Insights dashboard of AWS Systems Manager?",
+    "output":"The Insights dashboard displays operational data that the AWS Systems Manager automatically aggregates for each resource group, including API call logs from AWS CloudTrail, resource configuration changes from AWS Config, software inventory, and patch compliance status.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon EventBridge and what does it enable?",
+    "output":"Amazon EventBridge is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS IAM Identity Center (SSO) and what does it offer?",
+    "output":"AWS IAM Identity Center (SSO) is a cloud SSO service that makes it easy to centrally manage SSO access to multiple AWS accounts and business applications, offering a highly available SSO service without upfront investment and ongoing maintenance costs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon Inspector calculate risk scores for findings and what is the benefit of this?",
+    "output":"Amazon Inspector calculates a highly contextualized risk score for each finding by correlating common vulnerabilities and exposures (CVE) information with factors such as network access and exploitability, which is used to prioritize the most critical vulnerabilities to improve remediation response efficiency.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Translate and what does it do?",
+    "output":"Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation, allowing you to localize content, easily translate large volumes of text for analysis, and efficiently enable cross-lingual communication between users.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Verified Access and what does it do?",
+    "output":"AWS Verified Access is a service that provides secure access to AWS resources and applications, allowing you to manage access to your AWS environment and ensure that only authorized users and devices can access your resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS DataSync for data transfer?",
+    "output":"The benefits of using AWS DataSync for data transfer include automating data transfer tasks, reducing the burden on IT operations, and transferring data at speeds up to 10 times faster than open-source tools, making it easier to migrate data to AWS.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon EC2 Auto Scaling help maintain application availability?",
+    "output":"Amazon EC2 Auto Scaling helps maintain application availability by automatically adding or removing EC2 instances according to conditions defined by the user, and provides fleet management features to maintain the health and availability of the fleet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does Amazon DevOps Guru ingest operational data and provide visualization?",
+    "output":"Amazon DevOps Guru automatically ingests operational data from your AWS applications and provides a single dashboard to visualize issues in your operational data. You can get started by enabling Amazon DevOps Guru for all resources in your AWS account, resources in your AWS CloudFormation Stacks, or resources grouped together by AWS tags.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SageMaker Autopilot?",
+    "output":"Amazon SageMaker Autopilot automatically builds, trains, and tunes the best ML models based on your data, while allowing you to maintain full control and visibility.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does FreeRTOS extend the FreeRTOS kernel?",
+    "output":"FreeRTOS extends the FreeRTOS kernel, a popular open source operating system for microcontrollers, with software libraries that make it easy to securely connect small, low-power devices to AWS Cloud services.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Storage Gateway?",
+    "output":"AWS Storage Gateway is a hybrid storage service that allows on-premises applications to seamlessly use AWS cloud storage for backup and archiving, disaster recovery, cloud data processing, storage tiering, and migration.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow do I get started with AWS Audit Manager?",
+    "output":"You can get started quickly in the AWS Management Console by selecting a prebuilt framework to launch an assessment and begin automatically collecting and organizing evidence.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using AWS Lambda?",
+    "output":"With Lambda, you can run code for virtually any type of application or backend service\u2014all with zero administration, and you can set up your code to automatically run from other AWS services, or call it directly from any web or mobile app.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon AppStream 2.0 and what are its features?",
+    "output":"Amazon AppStream 2.0 is a fully managed application streaming service that allows users to centrally manage their desktop applications and securely deliver them to any computer, and easily scale to meet changing needs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Direct Connect and what does it provide?",
+    "output":"AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS, providing private connectivity between AWS and your data center, office, or co-location environment, which can reduce network costs, increase bandwidth throughput, and provide a more consistent network experience.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS HealthScribe and what does it do?",
+    "output":"AWS HealthScribe is a HIPAA-eligible service that allows healthcare software vendors to automatically generate clinical notes by analyzing patient-clinician conversations. It combines speech recognition with generative AI to reduce the burden of clinical documentation.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Q?",
+    "output":"Amazon Q is a generative AI-powered assistant for accelerating software development and leveraging your internal data.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Braket and what does it provide?",
+    "output":"Amazon Braket is a fully managed quantum computing service that provides a development environment for researchers and developers to explore and build quantum algorithms, test them on quantum circuit simulators, and run them on different quantum hardware technologies.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Transcribe Medical and what does it do?",
+    "output":"Amazon Transcribe Medical uses advanced ML models to accurately transcribe medical speech into text, generating text transcripts that can be used to support a variety of use cases, spanning clinical documentation workflow and drug safety monitoring to subtitling for telemedicine and contact center analytics.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon DocumentDB designed for?",
+    "output":"Amazon DocumentDB is designed from the ground-up to give you the performance, scalability, and availability you need when operating mission-critical MongoDB workloads at scale.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon FSx for NetApp ONTAP for Linux, Windows, and macOS compute instances?",
+    "output":"Amazon FSx for NetApp ONTAP provides high-performance file storage that is broadly accessible from Linux, Windows, and macOS compute instances via the industry-standard NFS, SMB, and iSCSI protocols.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Lambda and how does it work?",
+    "output":"AWS Lambda lets you run code without provisioning or managing servers, and you pay only for the compute time you consume\u2014there is no charge when your code is not running.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the purpose of SageMaker Runtime geospatial capabilities?",
+    "output":"SageMaker Runtime geospatial capabilities enable data scientists and ML engineers to build, train, and deploy ML models using geospatial data faster and at scale, with applications in various use cases such as maximizing harvest yield, assessing risk, and forecasting retail site utilization.\n",
     "input":""
   },
   {
@@ -285,18 +215,88 @@
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Macie and what can it detect?",
-    "output":"Amazon Macie is a service that can detect a large and growing list of sensitive data types for many countries and Regions, including multiple types of financial data, personal health information (PHI), and personally identifiable information (PII), as well as custom types.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nHow can you get started with Amazon Transcribe?",
+    "output":"The easiest way to get started with Amazon Transcribe is to submit a job using the console to transcribe an audio file, or you can call the service directly from the AWS Command Line Interface, or use one of the supported SDKs of your choice to integrate with your applications.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the priority of cloud security at AWS?",
-    "output":"Cloud security at AWS is the highest priority, with security built into the core of the cloud infrastructure and foundational services offered to help organizations meet their unique security requirements.\n",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat type of applications are Spot Instances recommended for?",
+    "output":"Spot Instances are recommended for applications that have flexible start and end times, are only feasible at very low compute prices, and for users with urgent computing needs for large amounts of additional capacity.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Cloud Computing:\nWhat problem does AWS Cloud Map solve in modern applications?",
-    "output":"AWS Cloud Map solves the problem of manual resource management, which becomes time-consuming and error-prone as the number of dependent infrastructure resources increases or the number of microservices dynamically scale up and down based on traffic.",
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Linux 2023 and what are its key features?",
+    "output":"Amazon Linux 2023 (AL2023) is a Linux-based operating system for AWS that provides a secure, stable, high-performance environment to develop and run cloud applications, with features like seamless integration with AWS services, optimized performance for Amazon EC2 Graviton-based instances, and AWS Support at no additional licensing cost.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Redshift and what are its benefits?",
+    "output":"Amazon Redshift is the most widely used cloud data warehouse that makes it fast, simple, and cost-effective to analyze all data using standard SQL and existing Business Intelligence (BI) tools, allowing users to run complex analytic queries against terabytes to petabytes of structured and semi-structured data.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the capabilities of AWS Config?",
+    "output":"AWS Config enables compliance auditing, security analysis, resource change tracking, and troubleshooting, and allows users to discover existing and deleted AWS resources, determine overall compliance against rules, and dive into configuration details of a resource at any point in time.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Cloud Map and what does it do?",
+    "output":"AWS Cloud Map allows you to register any application resources such as databases, queues, microservices, and other cloud resources with custom names, and it constantly checks the health of resources to make sure the location is up-to-date.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Proton and what benefits does it provide to users?",
+    "output":"AWS Proton is a fully managed delivery service for container and serverless applications that helps platform engineering teams connect and coordinate all the different tools needed for infrastructure provisioning, code deployments, monitoring, and updates. It makes it easy for developers to deploy their code using containers and serverless technologies.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are some examples of how AWS Entity Resolution can be used in different applications?",
+    "output":"AWS Entity Resolution can be used in various applications, such as advertising and marketing campaigns, loyalty programs, and e-commerce, to personalize experiences, create customer profiles, and remove duplicate records.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS Elemental MediaStore and what benefits does it offer for media storage?",
+    "output":"AWS Elemental MediaStore is an AWS storage service optimized for media that gives you the performance, consistency, and low latency required to deliver live streaming video content, acting as the origin store in your video workflow.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon Managed Service for Apache Flink and what are its benefits?",
+    "output":"Amazon Managed Service for Apache Flink is the easiest way to analyze streaming data, gain actionable insights, and respond to business and customer needs in real-time, reducing the complexity of building, managing, and integrating streaming applications with other AWS services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is AWS CodeDeploy and how does it automate code deployments?",
+    "output":"AWS CodeDeploy is a service that automates code deployments to any instance, including EC2 instances and instances running on premises, making it easier to rapidly release new features, avoid downtime during application deployment, and handle the complexity of updating applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is Amazon SageMaker Pipelines, and what are its key features?",
+    "output":"Amazon SageMaker Pipelines is the first purpose-built, easy-to-use continuous integration and continuous delivery (CI\/CD) service for ML, allowing you to create, automate, and manage end-to-end ML workflows at scale.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat is the purpose of AWS IoT Core and what does it do?",
+    "output":"AWS IoT Core is a service that enables devices to securely interact with the cloud and other devices, allowing you to easily manage device groups, associate them with Lambda functions, and track device health and activity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the benefits of using Amazon GuardDuty in terms of cost and operation?",
+    "output":"Amazon GuardDuty is cost-effective and easy to operate, with no upfront costs, no software to deploy, and no threat intelligence feeds to enable, and it optimizes costs by applying smart filters and analyzing only a subset of logs relevant to threat detection.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat are the key features of Amazon Aurora that provide security, availability, and reliability?",
+    "output":"Amazon Aurora provides the security, availability, and reliability of commercial databases at 1\/10th the cost, with features such as a distributed, fault-tolerant, self-healing storage system, auto-scaling up to 128TB per database instance, and replication across three Availability Zones (AZs).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nWhat does AWS Audit Manager do?",
+    "output":"AWS Audit Manager reports by mapping your AWS resources to the requirements in industry standards or regulations, such as CIS AWS Foundations Benchmark, GDPR, and PCI DSS, and continuously collects and organizes relevant evidence from your AWS accounts and resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Cloud Computing:\nHow does AWS Elastic Disaster Recovery work?",
+    "output":"AWS Elastic Disaster Recovery works by replicating data to a staging area subnet in the AWS account, and allows configuration of replication and launch settings, monitoring of data replication, and launching instances for drills or recovery.\n",
     "input":""
   }
 ]

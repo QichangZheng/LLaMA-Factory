@@ -1,217 +1,32 @@
 [
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the null command in the dialog script?",
-    "output":"The null command is used to intentionally do nothing, and is used in the script to set default values for parameters.\n",
+    "instruction":"The following question is relevant to Linux:\nHow can you produce calculated values using the SELECT statement in sqlite3?",
+    "output":"You can produce calculated values by using arithmetic operators, such as `2 + 2`, in the SELECT statement.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow are arrays used in AWK and what are their limitations?",
-    "output":"Arrays in AWK are single-dimensional and can have numeric or string indexes. While AWK only supports single-dimensional arrays, it provides a mechanism to simulate multi-dimensional arrays using the SUBSEP variable.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the file tagging dialog in Midnight Commander?",
+    "output":"The file tagging dialog stores a history of patterns, and you can traverse it using Ctrl up and down arrows.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the add_column.sql file?",
-    "output":"The add_column.sql file is used to add new columns to the Package_Descriptions table and populate them with values calculated from the Package_Files table, and it contains the necessary SQL statements to modify the table's schema and update the data.",
+    "instruction":"The following question is relevant to Linux:\nWhat is the byobu menu and how is it accessed?",
+    "output":"The byobu menu is a menu screen that can be accessed by pressing the F9 key, providing options to configure byobu settings.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of creating a shell script coding standard?",
-    "output":"The purpose of creating a shell script coding standard is to provide a set of guidelines for writing shell scripts that are consistent, readable, and maintainable.\n",
+    "instruction":"The following question is relevant to Linux:\nWhy would you want to use additional file descriptors in a script?",
+    "output":"Using additional file descriptors can be helpful in cases where you want to create a filter program that writes to both standard output and the terminal display, while keeping standard error restricted to error messages.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat are some examples of qualifiers that can be used with pathname expansion in zsh?",
-    "output":"Some examples of qualifiers that can be used with pathname expansion in zsh include \".\" for regular files, \"\/\" for directories, \"@\" for symbolic links, \"*\" for executable files, and many others.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the problem with using a simple AWK solution to parse a CSV file with embedded commas?",
+    "output":"The embedded comma in the second field throws the simple AWK solution out the window, making it difficult to parse the file.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the function of the Ctrl-b x command in tmux?",
-    "output":"The Ctrl-b x command is used to destroy the current pane in tmux.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can Vim convert an existing script with a different indentation scheme?",
-    "output":"Vim can convert an existing script with a different indentation scheme by typing :retab, which will reformat the file according to the current indentation settings.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat are the break, continue, and next keywords used for in AWK?",
-    "output":"The break, continue, and next keywords are used to \"escape\" from loops. break and continue behave like their corresponding commands in the shell, while next tells AWK to skip the remainder of the current program and begin processing the next record of input.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the problem with using tab characters for indentation?",
-    "output":"Using tab characters creates a problem because a tab character has no intrinsic width, and it's up to the receiving program to render the tab with some defined width, which can lead to rendering confusion.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat are some common options used with the `dialog` command?",
-    "output":"Some common options used with `dialog` include `--no-collapse`, `--backtitle`, `--clear`, and `--cancel-label`, which control the appearance and behavior of the dialog box.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is a statement in AWK, and what are its types?",
-    "output":"A statement in AWK can be a simple statement like \"a = a + 1\" or a compound statement enclosed in braces such as \"{a = a + 1; b = b * a}\". \n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow do we place something in a register in Vim?",
-    "output":"To place something in the register, we follow the register with an operation like \u2018yank to end of the line\u2019: \"ay$.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can you load the output of an external command into the current buffer in Vim?",
-    "output":"You can load the output of an external command into the current buffer by using the `:r !` command followed by the external command, for example `:r ! ls -l \/usr\/bin`.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can we examine a typical terminfo entry?",
-    "output":"We can examine a typical terminfo entry using the infocmp command followed by a terminal type name.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow do different shells support the `source` command?",
-    "output":"Bash, ksh, and zsh have the `source` builtin, while dash and other strictly POSIX compatible shells support only the single dot (.).\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow do you create a new session and window in tmux?",
-    "output":"You can create a new session and window in tmux by typing \"tmux new -s <session_name> -n <window_name>\".\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow do you copy text from one Screen window to another?",
-    "output":"You can copy text from one Screen window to another by entering scrollback mode (Ctrl-a [), marking the beginning and end of the text you want to copy, and then pasting the text into the desired window (Ctrl-a ]).\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the -s or --root option in new_script?",
-    "output":"The -s or --root option adds a routine to the template that requires the script to be run by the superuser.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nCan you provide an example of a user menu entry that creates an HTML template in the current directory?",
-    "output":"Yes, an example entry is provided, which creates a new HTML file with a basic template using echo commands and redirects the output to a file named new_page.html.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat are some commonly used macros in Midnight Commander?",
-    "output":"Some commonly used macros in Midnight Commander include %f (selected file's name), %x (selected file's extension), %b (selected file's name stripped of extension), %d (name of the current directory), %t (list of tagged files), and %s (selected file or tagged files).\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is rxvt, and how does it differ from xterm?",
-    "output":"Rxvt is a simpler, lighter terminal emulator that was written by Robert Nation around 1990, and it emulates the DEC VT102 terminal rather than the more advanced VT220, and has a smaller feature set than xterm.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the usage and help_message functions in the script template?",
-    "output":"The usage function prints the usage message, while the help_message function prints a neatly formatted help message with option descriptions capitalized as needed.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can you comment out a block of code in vim?",
-    "output":"To comment out a block of code, use visual mode to select the block, type \"d\" to delete the contents, and then use visual block selection to insert the \"#\" symbol and space at the beginning of each line.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is a potential issue with reading CSV files in AWK?",
-    "output":"A potential issue with reading CSV files in AWK is that some applications may create lines with embedded commas, which can throw off the simple AWK solution of using FS=\",\".",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhere can we find the entire list of terminal capabilities defined in the terminfo database?",
-    "output":"The terminfo man page contains the entire list of terminal capabilities defined in the terminfo database.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the InsertSub-Modes in Vim?",
-    "output":"The InsertSub-Modes in Vim invoke some form of automatic completion to make our typing faster, and they can be accessed using various key combinations.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the readline library in the bash shell used for?",
-    "output":"The readline library is used to handle keyboard input during interactive shell sessions, including text typed at the shell prompt and keyboard input using the read builtin when the -e option is specified.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of single quotes in an AWK command?",
-    "output":"Single quotes are used to prevent the shell from attempting any expansion on the AWK program, since its syntax has nothing to do with the shell.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat does Vim use to store text that we delete?",
-    "output":"Vim uses a particular set of registers to store text that we delete, and there are others that we can use to store text and restore it as we desire, like a multi-element clipboard.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nCan SQLite accept streams of dot commands and SQL statements through standard input?",
-    "output":"Yes, SQLite can accept streams of dot commands and SQL statements through standard input, which is how SQLite is most often used.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is a join in SQL, and what type of join is commonly used?",
-    "output":"A join is a method by which we perform a query and produce a result that combines the data from two tables. The most commonly used type of join is an inner join, which can be thought of as the intersection of two tables.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the command line history in Vim's command mode?",
-    "output":"The command line history in Vim's command mode allows us to scroll through past commands using the up and down arrows after typing \":\".\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the \"gq\" operator in vim?",
-    "output":"The \"gq\" operator in vim is used to format text.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can you use command substitution and redirection to receive data from dialog?",
-    "output":"You can use command substitution and redirection to pass the results from dialog to a variable rather than a file, by duplicating file descriptor 1 and redirecting dialog's output to the variable.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the output of the `subquery_demo1.sql` file?",
-    "output":"The output is a table that includes columns for package name, description, number of files, and total size, sorted by the number of files in descending order and limited to the top 20 packages.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow do you add a new color scheme to your vim configuration?",
-    "output":"You can add a new color scheme to your vim configuration by creating a ~\/.vim\/colors directory and downloading the new scheme into it.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhen should you use `(( ... ))` instead of `let` or `expr` in bash?",
-    "output":"Use `(( ... ))` when performing integer arithmetic, as it is more robust and efficient than `let` or `expr`.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat shell program is used to emulate sh in Debian-based distributions like Ubuntu and Raspberry Pi OS?",
-    "output":"Debian-based distributions like Ubuntu and Raspberry Pi OS use dash to emulate sh.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the map command in Vim?",
-    "output":"The map command in Vim allows users to remap keys to customize Vim\u2019s behavior, but its use is discouraged due to potential side effects.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow do you map a key to enter command mode and type a command in Vim?",
-    "output":"You can map a key to enter command mode and type a command by using the `nnoremap` command followed by the key and the command, separated by a colon. For example, `:nnoremap S :split<Return>` maps the S key to enter command mode and type the `split` command.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the issue with the Bash shell's behavior when a command returns non-zero, and how do implementors handle it?",
-    "output":"The issue is that the Bash shell aborts when a command returns non-zero, but implementors have made special rules to handle this, such as making commands in an if test immune to abortion. However, these rules are convoluted and change from one Bash version to another.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can you use the `file_types.awk` program to find the 10 most popular file extensions in your home directory?",
-    "output":"You can use the `file_types.awk` program to find the 10 most popular file extensions by piping the output of the `find` command to the `awk` command, and then piping the output to the `head` command.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nCan you create windows and run programs without an underlying shell in a Screen session?",
-    "output":"Yes, you can create windows and run programs without an underlying shell in a Screen session by entering screen followed by the name of the program you wish to run.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat information should be included in the comment block preceding a function definition?",
+    "output":"The comment block should list the function\u2019s name, purpose, and positional parameters.\n",
     "input":""
   },
   {
@@ -220,113 +35,93 @@
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhy does the variable \"str\" remain empty in the parent process when using bash pipelines?",
-    "output":"This is because in bash pipelines, each command is executed in a subshell, and its data is destroyed when the subshell exits. In this example, the final command (read) is in a subshell, and thus str remains empty in the parent process.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat are triggers in SQL, and how are they used?",
+    "output":"Triggers are stored blocks of code that are automatically called when some event occurs and a specified condition is met. They are typically used to perform certain maintenance tasks to keep the database in good working order.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the env command in the shebang line?",
-    "output":"The env command will search the user\u2019s PATH for a bash executable and launch the first instance it finds, making it suitable for use on non-Linux systems.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat are the basic components of a relational database table?",
+    "output":"A relational database table consists of columns (also known as attributes) and rows (also known as tuples), with each column containing data of a consistent type.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow do you open a file in a new tab in vim?",
-    "output":"You can open a file in a new tab in vim by typing the command \":tabe\" followed by the name of the file.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is Hacker's Keyboard and where can I download it from?",
+    "output":"Hacker's Keyboard is a keyboard app, and it can be downloaded from the Google Play Store.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat are macros in Midnight Commander and how are they used?",
-    "output":"Macros in Midnight Commander are single alphabetic characters preceded by a percent sign, which are replaced with alternate values during the execution of user menu commands.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat are the common terminal types?",
+    "output":"The common terminal types are \u2018linux\u2019 for the Linux console, and \u2018screen\u2019 used by terminal multiplexers such as screen and tmux.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the DROP INDEX statement in SQLite?",
-    "output":"The DROP INDEX statement is used to delete indexes in SQLite, as shown in the examples: DROP INDEX idx_package_name; and DROP INDEX idx_tot_size;\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of creating a shell script coding standard?",
+    "output":"The purpose of creating a shell script coding standard is to provide a set of guidelines for writing shell scripts that are consistent, readable, and maintainable.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow can we see the current contents of the registers in Vim?",
-    "output":"To see the current contents of the registers, we can use the command: :reg.\n",
+    "instruction":"The following question is relevant to Linux:\nHow do you split a window horizontally in tmux?",
+    "output":"You can split a window horizontally in tmux by typing Ctrl-b \".\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the External Panelize dialog used for?",
-    "output":"The External Panelize dialog allows you to store commands for repeated use, and you can create a panelized command by typing a command into the \"Command\" field.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is an example of using the file search feature in Midnight Commander?",
+    "output":"An example is searching for every file in \/etc that contains the string \"bashrc\" by filling in the search dialog with the appropriate parameters.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the `dash` shell, and what are its characteristics?",
-    "output":"The `dash` shell is Debian's adaptation of the Almquist shell, which is small and fast but lacks conveniences intended for interactive use, such as command history and editing.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is vim capable of doing besides writing code?",
+    "output":"Vim is good at writing ordinary prose as well, and can be configured to work well with text by creating a file for the text file type in the ~\/.vim\/ftplugin directory.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat type of files are the data sets in the archive?",
-    "output":"The data sets in the archive are tab-separated value files (.tsv files), which are human-readable text files.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat happens when you close a window in vim, and how can you recall the buffer containing the window's content?",
+    "output":"When you close a window in vim, it does not remove the buffer containing the window's content, and you can recall it at any time.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the wildmenu in Vim, and how can you use it?",
-    "output":"The wildmenu is a highlighted bar that appears above the command line when you are entering file names, and it allows you to choose from a list of possible matches. You can turn on the wildmenu using the `:set wildmenu` command.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the benefit of using Vim's indentation features while coding?",
+    "output":"The benefit of using Vim's indentation features while coding is that it saves a lot of time and ensures that the code stays nice and neat.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the \":set tw\" command in vim?",
-    "output":"The \":set tw\" command in vim is used to set the text width, which determines the length of lines in the file.",
+    "instruction":"The following question is relevant to Linux:\nCan you use sequences instead of single characters for mapping in Vim?",
+    "output":"Yes, you can use sequences instead of single characters for mapping in Vim. This is often helpful when you want to create a number of easily remembered, related commands of your own design.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat types of completion can readline perform in the terminal?",
-    "output":"Readline can perform completion on command names, environment variable names, user home directory names, network host names, and file names. Completion on the first word of a command is also supported.",
+    "instruction":"The following question is relevant to Linux:\nWhat information does new_script ask for after launching and specifying a script file name?",
+    "output":"new_script asks for the purpose of the script and how it is licensed, and later figures out the author's name and email address, as well as the copyright date.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow can you define a suffix alias in zsh to act like an \"open with\" feature?",
-    "output":"You can define a suffix alias in zsh using the `alias -s` command, followed by the file extension and the command you want to associate with it.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat are the two lines of text that need to be added to the .vimrc file to ensure that vim is not restricted to the vi feature set, and to load a standard plugin that lets vim recognize different file types?",
+    "output":"The two lines of text that need to be added to the .vimrc file are \"set nocompatible\" and \"filetype plugin on\".\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the `tput_characters` script?",
-    "output":"The `tput_characters` script demonstrates various character attributes such as bold, underline, reverse video, blinking text, and standout mode.\n",
+    "instruction":"The following question is relevant to Linux:\nCan you detach a Screen session from the terminal itself?",
+    "output":"Yes, you can detach a Screen session from the terminal itself, allowing you to reattach the session to a different terminal or no terminal at all, and continue running jobs in the background.",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow can you reveal which program is actually providing the sh emulation?",
-    "output":"You can use the command \"ls -l \/bin\/sh\" to reveal which program is actually providing the sh emulation.\n",
+    "instruction":"The following question is relevant to Linux:\nHow can you use the END pattern in an AWK program?",
+    "output":"The END pattern is used to output summaries once the input has been processed.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow do we turn on line numbering for a specific filetype in Vim, and why is it important to use the \"setlocal\" command?",
-    "output":"We can turn on line numbering for a specific filetype in Vim by adding the line \"setlocal number\" to the configuration file for that filetype. We use the \"setlocal\" command instead of \"set\" because it applies the option only to the current buffer, preventing settings conflicts when we edit multiple files of different types.",
+    "instruction":"The following question is relevant to Linux:\nWhat shell program is used to emulate sh in Red Hat-based distributions?",
+    "output":"Red Hat-based distributions use bash to emulate sh.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow can you examine the schema of a table in SQLite to see the indexes that have been created?",
-    "output":"You can examine the schema of a table in SQLite using the `.schema` command, as shown in the example: `sqlite> .schema Package_Stats`\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the `dialog` command in shell scripting?",
+    "output":"The `dialog` command is used to create interactive dialog boxes in shell scripts, allowing for user interaction and input.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of Ctrl-x s in Midnight Commander?",
-    "output":"Ctrl-x s creates a symbolic link in the directory shown in the other panel, using an absolute directory path.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is the OFS variable in AWK and how is it used?",
-    "output":"The OFS variable is a string used to separate fields when printing output. The default is a single space, but it can be set to a different value, such as a comma, to reformat data.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat is tab completion in zsh, and how does it work?",
-    "output":"Tab completion in zsh is a feature that supports many kinds of tab completion, including command names, command options, and arguments. When using the cd command, repeatedly pressing the tab key first displays a list of available directories, then begins to cycle through them.\n",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nHow can AWK be used to simulate the cat and wc commands?",
-    "output":"AWK can be used to simulate the cat command by printing the contents of a file, and the wc command by counting the number of lines, words, and characters in a file.",
-    "input":""
-  },
-  {
-    "instruction":"The following question is relevant to Linux:\nWhat should a help message include, and how can a separate usage function be used for both the help message and error messages?",
-    "output":"A help message should include the script name and version number, a brief description of the script's purpose, and a usage message that describes the supported options and arguments. A separate usage function can be used for both the help message and as part of an error message when the script is invoked incorrectly.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat are the naming conventions for shell script files?",
+    "output":"Shell script file names should not include an extension, while shared libraries of shell code should have the extension .sh or .bash, depending on whether the code is portable or bash-specific.\n",
     "input":""
   },
   {
@@ -335,23 +130,73 @@
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nHow can you create another index on a different column in SQLite, and what is the effect on query results?",
-    "output":"You can create another index on a different column in SQLite using the `CREATE INDEX` statement, and the effect is that queries that use the indexed column will return results in sorted order, as shown in the example: `sqlite> CREATE INDEX idx_tot_size ON Package_Stats (tot_size);`\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the InsertSub-Modes in Vim?",
+    "output":"The InsertSub-Modes in Vim invoke some form of automatic completion to make our typing faster, and they can be accessed using various key combinations.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat does Compute instance provide for IT administrators?",
-    "output":"Compute instance provides management and enterprise readiness capabilities for IT administrators which includes features like Private Link.\n",
+    "instruction":"The following question is relevant to Linux:\nHow can you create a user menu entry that acts on the currently selected file using macros?",
+    "output":"You can create a user menu entry that acts on the currently selected file using macros by writing a menu entry that includes the macro symbols, such as \"%f\" for the selected file's name.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nCan you undo the effect of a macro in vim?",
-    "output":"Yes, you can undo the effect of a macro by repeatedly typing \"u\".\n",
+    "instruction":"The following question is relevant to Linux:\nWhy is the last redirection needed in the command substitution?",
+    "output":"The last redirection is needed to restore standard output to its original value, which is the controlling terminal, so that dialog can display the input box.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the `tcsh` shell, and how does it differ from the `csh` shell?",
-    "output":"The `tcsh` shell is an enhanced replacement for the original `csh` program, developed in the early 1980s by Ken Greer, which added additional command history features, Emacs and vi-style command line editing, and other improvements intended for interactive use.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the function of the Alt-f key combination in the readline library?",
+    "output":"The Alt-f key combination is used to move forward one word.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of guake's split view feature?",
+    "output":"Guake's split view feature allows you to have two views of a single terminal session, which is useful when examining long streams of output, and can also be used in conjunction with tabs to display different terminal sessions.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the coding standard specified in the text?",
+    "output":"The purpose of the coding standard is to assist in writing serious, production-quality scripts by specifying a complete set of technical and stylistic features.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the problem with the help window in vim, and how can you toggle between the windows?",
+    "output":"The problem with the help window in vim is that it creates a split in the display, and you can toggle between the windows by typing Ctrl-w twice.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the Ctrl-l key combination in the readline library?",
+    "output":"The Ctrl-l key combination is used to clear the screen.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can you modify a previously entered command in the terminal using the \"tough-guy's way\" method?",
+    "output":"To modify a previously entered command using the \"tough-guy's way\" method, recall the command with the up arrow, type Ctrl-a to jump to the beginning of the line, type Alt-d to kill the current word, type the new command, and then Enter.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat are the different output modes available in SQLite?",
+    "output":"The different output modes available in SQLite are csv, column, html, insert, line, list, tabs, and tcl.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the gsub function in AWK?",
+    "output":"The gsub function globally replaces any substring matching a regular expression with a specified string, and returns the number of substitutions made.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is ShellCheck and how can it be used to check the quality of scripts?",
+    "output":"ShellCheck is a tool that can be used to check the quality of scripts by detecting kinds of faults and poor scripting practices. It can be used with a script that has a shebang by simply running the command \"shellcheck my_script\".\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is a join in SQL, and what type of join is commonly used?",
+    "output":"A join is a method by which we perform a query and produce a result that combines the data from two tables. The most commonly used type of join is an inner join, which can be thought of as the intersection of two tables.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the dialog program?",
+    "output":"Dialog is a program that emulates common graphical user interface features on a text display, allowing us to incorporate various kinds of dialog boxes into our shell scripts to give them a friendlier face.\n",
     "input":""
   },
   {
@@ -360,8 +205,163 @@
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux:\nWhat is the Korn shell, and what are some of its key features?",
-    "output":"The Korn shell was developed by David Korn in 1983, and it added features such as command history, job control, associative arrays, vi and Emacs style command editing, and floating point arithmetic.\n",
+    "instruction":"The following question is relevant to Linux:\nWhat is the history of Unix shells, and who developed the first Unix shell?",
+    "output":"The first Unix shell was developed in 1971 by Ken Thompson, who, along with Dennis Richie, created Unix at AT&T Bell Telephone Laboratories.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the suggested prerequisite for this adventure on shell script coding style guide?",
+    "output":"The Source adventure is a suggested prerequisite for this adventure on shell script coding style guide.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can multiple panes be created and navigated in tmux?",
+    "output":"Multiple panes can be created and navigated in tmux using the `Ctrl-b \"` command to split a pane horizontally, `Ctrl-b %` to split a pane vertically, and `Ctrl-b arrow` to move to an adjoining pane.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can we examine a typical terminfo entry?",
+    "output":"We can examine a typical terminfo entry using the infocmp command followed by a terminal type name.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow do you display a list of mappings in Vim?",
+    "output":"You can display a list of mappings in Vim by using the `:map` command followed by no arguments.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can you use the :find command in Vim to load a file by searching a path variable?",
+    "output":"You can use the `:find` command to load a file by searching a path variable by specifying a partial file name, and Vim will attempt to locate the file and automatically complete the name when the Tab key is pressed.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the structure of the list_of_items part in the SELECT statement?",
+    "output":"The list_of_items part is a comma-separated list of items to output, which includes package_name, description, files, and size, where files and size are calculated using subqueries.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat information should be included in the comment block of a script?",
+    "output":"The comment block should include the name of the script, its author, copyright and licensing information, a brief description of the script\u2019s purpose, and its command line options and arguments.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat feature in modern terminal emulators allows for multiple shell sessions in a single terminal window?",
+    "output":"The feature that allows for multiple shell sessions in a single terminal window is tabs, which is a valuable feature found in most modern terminal emulators.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the significance of the 80-column default width in terminal emulators?",
+    "output":"The 80-column default width has implications for the shell scripts and other text-based programs we write, as we should format our printed output to fit within the limits of an 80-character line for best effect.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is an example of a shared function that can be used between scripts?",
+    "output":"A shared function like `error_msg()` can be used to report errors to standard error, and another function can be used to detect if the backup server is available on the network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow do you change directories in Midnight Commander?",
+    "output":"You can change directories by selecting a directory in the current directory panel, or by entering \"cd\" followed by a path name on the command line. Highlighting the topmost item in the listing also selects the parent directory.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is Connectbot and what is its purpose?",
+    "output":"Connectbot is a secure shell client for Android that allows us to log into any system running an SSH server, and it looks like a terminal using the GNU Screen terminal type to the remote system.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the autoindent and smartindent settings in Vim?",
+    "output":"The autoindent and smartindent settings automate indentation when writing blocks of code, with autoindent repeating the previous line's indentation and smartindent providing indentation for certain program structures.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat are the characteristics of SQL syntax, including case sensitivity, white space, and statement termination?",
+    "output":"SQL is case insensitive, white space is not important but is often used to make the SQL statements easier to read, and statements are terminated by a semicolon character.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the External Panelize dialog used for?",
+    "output":"The External Panelize dialog allows you to store commands for repeated use, and you can create a panelized command by typing a command into the \"Command\" field.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can you run an external command on the current file in Vim?",
+    "output":"You can run an external command on the current file by using the `:w` command followed by the external command, for example `:w ! wc -l %`.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is a Compute cluster?",
+    "output":"Compute cluster is a managed-compute infrastructure which can have single or multiple nodes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat are some commonly used macros in Midnight Commander?",
+    "output":"Some commonly used macros in Midnight Commander include %f (selected file's name), %x (selected file's extension), %b (selected file's name stripped of extension), %d (name of the current directory), %t (list of tagged files), and %s (selected file or tagged files).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the relational expressions in AWK?",
+    "output":"Relational expressions such as (a < b) will also evaluate to 0 or 1, which can be used in conditional statements.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow do you determine which keys are available for remapping in Vim?",
+    "output":"You need to make a judgment call as to what native functionality you are willing to give up to get the mapping you want, as Vim uses almost every key for something. You can check the key first by doing something like `:h Q` to see how a key is being used before applying your own mapping.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow does the dialog command itself work in the script?",
+    "output":"The dialog command is used to create an input box, and its options include setting a title, clearing the screen, and specifying the type of dialog box and its required arguments.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can you reset the terminal when it becomes garbled due to displaying a non-text file?",
+    "output":"To reset the terminal, you can use the \"Reset\" function located in the Terminal menu of gnome-terminal.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow do we automatically complete a word in Vim using a dictionary?",
+    "output":"If we define a dictionary, we can begin typing a word, type Ctrl-x Ctrl-k, and Vim will attempt to automatically complete the word using the dictionary.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the for (var in array) statement in AWK?",
+    "output":"The for (var in array) statement in AWK is a special flow control statement for traversing the indexes of an array.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhat is the purpose of the `mk_list` function in the script for Debian-based systems?",
+    "output":"The `mk_list` function reads `*.list` files in `LIST_DIR`, outputs a stream of tsv to stdout, and loads the list into an array.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can output be sent to files and pipelines in AWK?",
+    "output":"Output can be sent to files using the > operator, which truncates the file to zero length, or the >> operator, which appends to the file. Output can also be sent to pipelines using the | operator.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nWhy should we pay more attention to our terminal emulators?",
+    "output":"Our terminal emulators are among our most vital tools, and they should command more of our attention because they have many different features that can be truly useful to the busy command line user.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow does Midnight Commander execute user menu commands?",
+    "output":"Midnight Commander executes user menu commands by writing the commands to a file and then launching sh to execute the contents of the file, during which it performs macro substitution.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can you convert a file to TSV format using AWK?",
+    "output":"You can convert a file to TSV format by setting the output field separator to a tab character using the command `awk 'BEGIN {OFS=\"\\t\"} {print $1,$2,$3,$4,$5}' random_table.dat`.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow can you examine the contents of the Package_Stats table?",
+    "output":"You can examine the contents of the Package_Stats table by using the SELECT statement with the LIMIT clause to retrieve a specified number of rows, and by setting the output mode to display the results in a readable format.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Linux:\nHow does the script validate the user's selection?",
+    "output":"The script validates the user's selection by checking if it is one of the permitted choices (the numerals 0-3) using a case statement.\n",
     "input":""
   }
 ]

@@ -1,12 +1,12 @@
 [
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow can the root account be disabled in Ubuntu?",
-    "output":"To disable the root account, use the command \"sudo passwd -l root\".\n",
+    "instruction":"The following question is relevant to Linux User Management:\nHow can you prevent unauthorized access to user home folders?",
+    "output":"You can modify the adduser global default permissions when creating user home folders by editing the file \/etc\/adduser.conf and modifying the DIR_MODE variable to something appropriate, such as DIR_MODE=0750.\n",
     "input":""
   },
   {
-    "instruction":"The following question is relevant to Linux User Management:\nHow can you view the current status of a user account, including password expiration policies?",
-    "output":"You can use the syntax \"sudo chage -l username\" to view the current status of a user account, including password expiration policies.\n",
+    "instruction":"The following question is relevant to Linux User Management:\nWhat is the default permission setting for user home directories in Ubuntu?",
+    "output":"By default, user home directories in Ubuntu are created with world read\/execute permissions, meaning all users can browse and access the contents of other users' home directories.\n",
     "input":""
   }
 ]

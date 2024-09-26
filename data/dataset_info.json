@@ -17,8 +17,8 @@
   "computer-security_train": {
     "file_name": "computer-security_train.json"
   },
-  "Computer_Networking___A_Top_Down_Approach,_7th,_converted_train": {
-    "file_name": "Computer_Networking___A_Top_Down_Approach,_7th,_converted_train.json"
+  "Computer_Networking_A_Top_Down_Approach_train": {
+    "file_name": "Computer_Networking_A_Top_Down_Approach_train.json"
   },
   "Linux_Administration_Handbook_2nd_Edition_train": {
     "file_name": "Linux_Administration_Handbook_2nd_Edition_train.json"
@@ -50,8 +50,8 @@
   "computer-security_test": {
     "file_name": "computer-security_test.json"
   },
-  "Computer_Networking___A_Top_Down_Approach,_7th,_converted_test": {
-    "file_name": "Computer_Networking___A_Top_Down_Approach,_7th,_converted_test.json"
+  "Computer_Networking_A_Top_Down_Approach_test": {
+    "file_name": "Computer_Networking_A_Top_Down_Approach_test.json"
   },
   "Linux_Administration_Handbook_2nd_Edition_test": {
     "file_name": "Linux_Administration_Handbook_2nd_Edition_test.json"

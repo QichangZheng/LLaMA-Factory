@@ -1,0 +1,1667 @@
+[
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between Active Optical Networks (AONs) and Passive Optical Networks (PONs)?",
+    "output":"AON is essentially switched Ethernet, while PON is a competing optical-distribution network architecture that performs splitting, used in Verizon\u2019s FIOS service.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of selective route advertisement policy in implementing customer\/provider routing relationships?",
+    "output":"Selective route advertisement policy can be used to implement customer\/provider routing relationships by controlling the routes that are advertised to neighbors, thereby preventing unwanted traffic forwarding.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is an ARP query packet, and what is its purpose?",
+    "output":"An ARP query packet is a special packet that is used to query all the other hosts and routers on the subnet to determine the MAC address corresponding to the IP address that is being resolved.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the consequence of having a finite range of sequence numbers?",
+    "output":"With a finite range of sequence numbers, all arithmetic involving sequence numbers must be done using modulo 2k arithmetic, and the sequence number space can be thought of as a ring of size 2k.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does HTTP define the interaction between clients and servers, and what is the general idea of this interaction?",
+    "output":"HTTP defines how Web clients request Web pages from Web servers and how servers transfer Web pages to clients, with the general idea being that the client sends HTTP request messages for the objects in the page to the server, which responds with HTTP response messages containing the objects.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens when the chosen symmetric cipher employs CBC in an SSL connection?",
+    "output":"When the chosen symmetric cipher employs CBC, then two Initialization Vectors (IVs)\u2014one for each side of the connection\u2014are also obtained from the MS.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a datagram travel from a source host to a destination host in a network?",
+    "output":"A datagram must be moved over each of the individual links in the end-to-end path, with each link involving the encapsulation of the datagram in a link-layer frame and transmission into the link.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a MAC address compare to a person's social security number and postal address?",
+    "output":"A MAC address is analogous to a person's social security number, which has a flat addressing structure and doesn't change no matter where the person goes. An IP address is analogous to a person's postal address, which is hierarchical and must be changed whenever a person moves.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are some other purposes of using MPLS?",
+    "output":"MPLS can be used to perform fast restoration of MPLS forwarding paths, implement virtual private networks (VPNs), and isolate resources and addressing used by a customer\u2019s VPN from that of other users crossing the ISP\u2019s network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is a Web page, and what does it consist of?",
+    "output":"A Web page (also called a document) consists of objects, which are files such as HTML files, JPEG images, Java applets, or video clips, that are addressable by a single URL.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main difference between 3G UMTS and 2G networks in terms of wireless access?",
+    "output":"A significant change in 3G UMTS over 2G networks is that rather than using GSM\u2019s FDMA\/TDMA scheme, UMTS uses a CDMA technique known as Direct Sequence Wideband CDMA (DS-WCDMA) within TDMA slots.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is an example of using RTP to transport voice?",
+    "output":"An example of using RTP to transport voice is when the voice source is PCM-encoded at 64 kbps, and the application collects the encoded data in 20-msec chunks, which are then preceded by an RTP header that includes the type of audio encoding, a sequence number, and a timestamp.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the main functions of the data plane in the network layer?",
+    "output":"The main functions of the data plane are to forward packets from input links to output links based on the forwarding table.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the data field in an IP datagram?",
+    "output":"The data field in an IP datagram contains the transport-layer segment (TCP or UDP) to be delivered to the destination, but it can also carry other types of data, such as ICMP messages.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does packet jitter affect the spacing between consecutive packets in a VoIP application?",
+    "output":"Packet jitter causes the time from when a packet is generated at the source until it is received at the receiver to fluctuate from packet to packet, resulting in varying queuing delays that can increase or decrease the spacing between consecutive packets.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do routers and the remote controller communicate in the SDN approach?",
+    "output":"Routers and the remote controller communicate by exchanging messages containing forwarding tables and other pieces of routing information.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the probability of detecting a burst of length greater than r+1 bits?",
+    "output":"Under appropriate assumptions, a burst of length greater than r+1 bits is detected with probability 1\u22120.5r.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow is Streaming Live Audio and Video typically done in the Internet today?",
+    "output":"Streaming Live Audio and Video is typically done using CDNs (Content Delivery Networks), which allow multiple users to receive the same audio\/video program at the same time.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is UDP preferred over TCP for network management applications?",
+    "output":"UDP is preferred because network management applications must often run when the network is in a stressed state, and reliable, congestion-controlled data transfer is difficult to achieve.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between plaintext and ciphertext in cryptography?",
+    "output":"Plaintext is the original message, while ciphertext is the encrypted message that looks unintelligible to any intruder, but can be decrypted by the intended receiver using a secret key or decryption algorithm.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do you perform traffic engineering in an MPLS network to switch packets from R6 to A via R6-R4-R3-R1, and packets from R5 to A via R5-R4-R2-R1?",
+    "output":"To perform traffic engineering, you need to modify the MPLS tables in R5 and R6, as well as the modified table in R4.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat was the significance of the work done at MIT, Rand, and the National Physical Laboratory in the development of the Internet?",
+    "output":"The work done at these institutions laid the foundations for today's Internet, with researchers like J.C.R. Licklider and Lawrence Roberts leading the development of the ARPAnet, the first packet-switched computer network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main distinction between the challenges posed by wireless communication and mobility in wireless networks?",
+    "output":"The main distinction is between the challenges posed by the wireless nature of the communication links, and by the mobility that these wireless links enable.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow long are IP addresses, and how are they typically written?",
+    "output":"IP addresses are 32 bits long, and they are typically written in dotted-decimal notation, with each byte of the address written in its decimal form and separated by a period.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy does TCP's congestion-control response assume that segment loss results from congestion rather than corruption or handoff?",
+    "output":"TCP's congestion-control response assumes that segment loss results from congestion rather than corruption or handoff because it is unaware of the actual cause of segment loss.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are three IP datagram header fields that cannot be \"matched\" in OpenFlow?",
+    "output":"The text does not explicitly mention three IP datagram header fields that cannot be \"matched\" in OpenFlow, but based on the context, they could be fields that are not relevant to forwarding decisions, such as packet length or checksum.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the initial value of ssthresh at the first transmission round in Figure 3.58?",
+    "output":"The initial value of ssthresh is not explicitly stated in the text, but it can be inferred that it is set to a high value, such as the maximum window size.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do anomaly-based IDS systems detect malicious packets?",
+    "output":"Anomaly-based IDS systems create a traffic profile as they observe traffic in normal operation and then look for packet streams that are statistically unusual, such as an inordinate percentage of ICMP packets or a sudden exponential growth in port scans and ping sweeps.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens if you run UDPClient before running UDPServer?",
+    "output":"The UDPClient will send a message to the UDPServer, but the server will not receive it because it is not yet running.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of ICANN in managing the IP address space?",
+    "output":"ICANN is the global authority responsible for managing the IP address space and allocating address blocks to ISPs and other organizations, based on guidelines set forth in RFC 7020.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main difference between POP3 and IMAP protocols?",
+    "output":"IMAP provides more features than POP3, including the ability to create remote folders and assign messages to folders, and maintains user state information across sessions.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is an overlay network, and does it include routers?",
+    "output":"An overlay network is a virtual network that runs on top of another network, and it does not include routers. The edges in an overlay network represent the connections between nodes in the network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the leaky bucket mechanism police a packet flow?",
+    "output":"Before a packet is transmitted into the network, it must first remove a token from the token bucket, and if the token bucket is empty, the packet must wait for a token, thus policing the traffic flow.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nIs RTP used in conjunction with other protocols, and if so, which ones?",
+    "output":"Yes, RTP is often used in conjunction with SIP (Session Initiation Protocol), an important standard for Internet telephony, as seen in Section 9.4.2.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the authoritative flag in a DNS message?",
+    "output":"The authoritative flag is set in a reply message when a DNS server is an authoritative server for a queried name.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between the DNS and other Internet applications?",
+    "output":"Unlike Web, file transfer, and e-mail applications, the DNS is not an application with which a user directly interacts, but rather provides a critical Internet function.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a two-dimensional parity scheme work?",
+    "output":"The d bits in D are divided into i rows and j columns, and a parity value is computed for each row and for each column, resulting in i+j+1 parity bits that comprise the link-layer frame\u2019s error-detection bits.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does RTP typically run and what is the process of sending and receiving RTP packets?",
+    "output":"RTP typically runs on top of UDP, where the sending side encapsulates a media chunk within an RTP packet, then encapsulates the packet in a UDP segment, and hands it to IP, while the receiving side extracts the RTP packet from the UDP segment and passes the media chunk to the media player for decoding and rendering.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of the network edge and network core in a computer network, and what has been covered so far?",
+    "output":"The network edge covers everything that happens in the end systems, and having covered the application layer and transport layer, the discussion of the network edge is complete, with the next chapters exploring the network core.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is an example of a computer network protocol that is commonly used?",
+    "output":"An example of a computer network protocol is the protocol used when you make a request to a Web server, where your computer sends a connection request message, receives a reply, and then sends a GET message to fetch a Web page.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a block cipher work, and what is an example of a block cipher?",
+    "output":"A block cipher processes the message to be encrypted in blocks of k bits, and each block is encrypted independently using a one-to-one mapping, and an example is given in Table 8.1, which shows a 3-bit block cipher.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is an example of a tiered level of service provided by ISPs?",
+    "output":"Some residential wired-access ISPs and cellular wireless-access ISPs have adopted tiered levels of service, with platinum-service subscribers receiving better performance than gold- or silver-service subscribers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the nature of the HTTP protocol in terms of state information, and what implications does this have for server behavior?",
+    "output":"HTTP is a stateless protocol, meaning that the server sends requested files to clients without storing any state information about the client, and if a client asks for the same object twice, the server resends the object without remembering the previous request.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the RSA algorithm and how is it related to public key cryptography?",
+    "output":"The RSA algorithm is a widely used algorithm for public key cryptography, named after its founders Ron Rivest, Adi Shamir, and Leonard Adleman.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the end-to-end delay for a caravan of cars traveling 150 km, beginning in front of one tollbooth, passing through a second tollbooth, and finishing just after a third tollbooth?",
+    "output":"The end-to-end delay is 1.5 hours, assuming a propagation speed of 100 km\/hour.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the logically centralized controller in network management, particularly in an SDN context?",
+    "output":"The logically centralized controller can help with network management by providing a centralized point of control and coordination for the network, as seen in Section 5.5.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can oscillations in the LS algorithm be prevented?",
+    "output":"Oscillations in the LS algorithm can be prevented by ensuring that not all routers run the LS algorithm at the same time, or by randomizing the time it sends out a link advertisement.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nIn a DASH system, how many files will the server need to store if the server sends the audio and video streams separately and has the client synchronize the streams?",
+    "output":"The server will need to store 2N files, where N is the number of video versions and N is the number of audio versions.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is Dynamic Adaptive Streaming over HTTP (DASH), and how does it address the shortcoming of traditional HTTP streaming?",
+    "output":"DASH is a type of HTTP-based streaming that encodes video into multiple versions with different bit rates and quality levels, allowing clients to dynamically request chunks of video segments based on their available bandwidth.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the desirable characteristics of a multiple access protocol for a broadcast channel?",
+    "output":"A multiple access protocol for a broadcast channel should have the following desirable characteristics: when only one node has data to send, that node has a throughput of R bps; when M nodes have data to send, each node has a throughput of R\/M bps; the protocol is decentralized; and the protocol is simple.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat was the initial SDN protocol and controller?",
+    "output":"The initial SDN protocol was OpenFlow and the initial SDN controller was NOX.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can Web caches reduce traffic on an institution's access link to the Internet?",
+    "output":"By storing copies of frequently requested objects, Web caches can reduce the amount of traffic that needs to be sent over the access link, thereby reducing the need for bandwidth upgrades and costs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow is EstimatedRTT calculated in TCP?",
+    "output":"EstimatedRTT is calculated using the formula: EstimatedRTT = (1 - \u03b1) * EstimatedRTT + \u03b1 * SampleRTT, where \u03b1 is a constant (recommended value is 0.125) and SampleRTT is the latest round-trip time measurement.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the case of data transfer considered in this section, and why is it important to note that the sending and receiving sides of the protocol will need to transmit packets in both directions?",
+    "output":"The case of unidirectional data transfer is considered, but it is important to note that the sending and receiving sides of the protocol will need to transmit packets in both directions, as indicated in Figure 3.8, in order to exchange control packets.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the effective transmission rate of the channel in slotted ALOHA?",
+    "output":"The effective transmission rate of the channel in slotted ALOHA is not R bps but only 0.37 R bps, due to the collisions and empty slots.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the two types of redundancy in video that can be exploited by video compression?",
+    "output":"The two types of redundancy in video are spatial redundancy, which is the redundancy within a given image, and temporal redundancy, which reflects repetition from image to subsequent image.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the IP protocol, and what is its role in the network layer?",
+    "output":"The IP protocol is a network-layer protocol that defines the fields in the datagram and how end systems and routers act on these fields, serving as the glue that binds the Internet together.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of FEC techniques in real-time network applications or links with long propagation delays?",
+    "output":"FEC techniques can provide a potentially important advantage in real-time network applications or links with long propagation delays, such as deep-space links, by allowing for immediate correction of errors at the receiver.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is guaranteed minimal bandwidth in the context of network layer services?",
+    "output":"Guaranteed minimal bandwidth is a network-layer service that emulates the behavior of a transmission link of a specified bit rate between sending and receiving hosts, ensuring that all packets are eventually delivered to the destination host as long as the sending host transmits bits at a rate below the specified bit rate.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the scenario described at the beginning of the text, and what are the potential security risks involved?",
+    "output":"The scenario is about Bob purchasing perfume from Alice Incorporated's website, and the potential security risks include an intruder intercepting Bob's order and obtaining his payment card information, modifying Bob's order, and masquerading as Alice Incorporated to steal Bob's money and identity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are three header fields in an IP datagram that can be \"matched\" in OpenFlow 1.0 generalized forwarding?",
+    "output":"Three header fields in an IP datagram that can be \"matched\" in OpenFlow 1.0 generalized forwarding are not explicitly mentioned in the text, but based on the context, they could be source IP address, destination IP address, and protocol number.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat does it mean for a wireless network to be operating in \"infrastructure mode\"?",
+    "output":"When a wireless network is operating in \"infrastructure mode\", it means that the network is using a base station to manage communication between devices. If the network is not in infrastructure mode, it is operating in ad-hoc mode, where devices communicate directly with each other without a central base station.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the outcome of the DV algorithm when all nodes continue to exchange their distance vectors in an asynchronous fashion?",
+    "output":"When all nodes continue to exchange their distance vectors in an asynchronous fashion, each cost estimate converges to the actual cost of the least-cost path from each node to all other nodes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does packet reordering affect sequence numbers, and what is the solution to this problem?",
+    "output":"Packet reordering can cause duplicate packets to appear, even though neither the sender\u2019s nor the receiver\u2019s window contains that number. To guard against this, a sequence number is not reused until the sender is \u201csure\u201d that any previously sent packets with that sequence number are no longer in the network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the Data field in an Ethernet frame?",
+    "output":"The Data field carries the IP datagram and has a maximum size of 1,500 bytes, and a minimum size of 46 bytes. If the IP datagram exceeds 1,500 bytes, it must be fragmented, and if it is less than 46 bytes, the data field must be \"stuffed\" to fill it out to 46 bytes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can a correspondent (an entity wishing to communicate with a mobile node) reach the mobile node, and what is the role of the home agent in this process?",
+    "output":"A correspondent can reach a mobile node by sending a message to the mobile node's permanent address, which is then forwarded to the foreign network by the home agent.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the alternating-bit protocol fail when the network connection between the sender and receiver can reorder messages?",
+    "output":"The protocol fails because the receiver may receive an out-of-order packet and send an acknowledgment with the wrong sequence number, causing the sender to retransmit the wrong packet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does public key cryptography work for communication between two parties?",
+    "output":"The sender fetches the recipient's public key, encrypts the message using the public key and a known encryption algorithm, and the recipient decrypts the message using their private key and a known decryption algorithm.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat trend is emerging among large cloud providers in terms of data center design?",
+    "output":"Large cloud providers are increasingly building or customizing just about everything that is in their data centers, including network adapters, switches, routers, TORs, software, and networking protocols.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the hash function in the context of TCP connection establishment?",
+    "output":"The hash function is used by the server to verify the authenticity of the ACK segment received from the client by comparing the result of the function with the acknowledgment value in the client's SYNACK.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the homework problems and questions in Chapter 2?",
+    "output":"The homework problems and questions are designed to test the reader's understanding of the material covered in Chapter 2, including network architecture, application-level protocols, and socket programming.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the essential aspects of cryptography, particularly as they are practiced on the Internet?",
+    "output":"Cryptographic techniques allow a sender to disguise data so that an intruder can gain no information from the intercepted data, while the receiver can recover the original data from the disguised data.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the name of the link-state routing algorithm presented in the text?",
+    "output":"The link-state routing algorithm presented in the text is known as Dijkstra\u2019s algorithm.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow are ICMP messages carried in IP datagrams?",
+    "output":"ICMP messages are carried as IP payload, just as TCP or UDP segments are carried as IP payload.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the approach that has been most widely adopted for transitioning from IPv4 to IPv6?",
+    "output":"The approach that has been most widely adopted involves tunneling, where IPv6 datagrams are encapsulated within IPv4 datagrams to allow them to be transmitted over IPv4 networks.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens when a transport-layer protocol doesn\u2019t provide reliable data transfer?",
+    "output":"Some of the data sent by the sending process may never arrive at the receiving process, which may be acceptable for loss-tolerant applications such as multimedia applications.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are some of the key components of the future of networking?",
+    "output":"The future of networking includes intelligent software agents deployed across the network, considerably more network traffic generated by embedded devices and software agents, large collections of self-organizing systems controlling the network, and huge amounts of information flashing across the network instantaneously.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is the current model of routing algorithms simplistic for the Internet?",
+    "output":"The current model is simplistic because it views the network as a collection of interconnected routers, ignoring the scale and administrative autonomy of the Internet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat were the four killer applications that emerged by the end of the millennium?",
+    "output":"The four killer applications that emerged by the end of the millennium were E-mail, including attachments and Web-accessible e-mail, The Web, including Web browsing and Internet commerce, Instant messaging, with contact lists, and Peer-to-peer file sharing of MP3s, pioneered by Napster.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the typical setup of a home network in terms of AP and router?",
+    "output":"In a typical home network, there is one AP and one router (typically integrated together as one unit) that connects the BSS to the Internet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between clients and servers in computer networking?",
+    "output":"Clients tend to be desktop and mobile PCs, smartphones, and so on, whereas servers tend to be more powerful machines that store and distribute Web pages, stream video, relay e-mail, and so on.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of a foreign agent in a foreign network?",
+    "output":"The foreign agent creates a care-of address (COA) for the mobile node, with the network portion of the COA matching that of the foreign network, and informs the home agent that the mobile node is resident in its network and has the given COA.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat type of browser initiates the given HTTP request message, and why is the browser type needed in an HTTP request message?",
+    "output":"The type of browser that initiates the given HTTP request message is not explicitly stated, but it can be inferred from the message content. The browser type is needed in an HTTP request message to allow the server to optimize its response for the specific browser and its capabilities.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the anchor MSC in GSM, and how does it relate to inter-MSC handoff?",
+    "output":"The anchor MSC is the MSC visited by the mobile when a call first begins, and it remains unchanged during the call, even if the mobile moves to a BS associated with a different MSC.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the field of network security about?",
+    "output":"The field of network security is about how \"bad guys\" can attack computer networks and how to defend networks against those attacks, or design new architectures that are immune to such attacks.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the WEP protocol provide authentication between a host and a wireless access point?",
+    "output":"WEP provides authentication by having the host and access point share a symmetric key, which is used to encrypt a nonce value sent by the access point, and then decrypting the host-encrypted nonce to verify the host's identity.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the challenge in providing a high-level of responsiveness for cloud services, and how does it affect response time performance?",
+    "output":"The challenge is that users are often located far away from the data centers responsible for serving the dynamic content associated with the cloud services, leading to a large RTT and potentially poor response time performance due to TCP slow start.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the promise of software-defined networking?",
+    "output":"Software-defined networking promises to provide a unified approach towards providing many network-layer functions, and certain link-layer functions as well, in a modern, elegant, and integrated manner.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is the tunnel mode more widely deployed than the transport mode?",
+    "output":"The tunnel mode is more widely deployed than the transport mode because it is more appropriate for VPNs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do intrusion detection systems differ from packet filters and application gateways?",
+    "output":"Intrusion detection systems differ from packet filters and application gateways in that they examine the actual application data carried by packets, whereas packet filters only examine header fields, and application gateways only perform deep packet inspection for specific applications.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the key architectural principles in computer networking that will be discussed in this chapter?",
+    "output":"The key architectural principles in computer networking that will be discussed in this chapter include protocol layering and service models.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens to a packet if it is blocked from entering the switching fabric?",
+    "output":"A blocked packet will be queued at the input port and then scheduled to cross the fabric at a later point in time.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of a base station in connecting a wireless host to the larger network?",
+    "output":"A base station connects a wireless host to the larger network, functioning as a link-layer relay between the wireless host and the rest of the world with which the host communicates.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is it important to note that the random number r(i) is sent in the clear in the Cipher-Block Chaining method?",
+    "output":"It is important to note that the random number r(i) is sent in the clear because, although it can be sniffed by an attacker, it does not compromise the security of the plaintext, as the attacker does not know the shared key.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of a Type CNAME record in DNS?",
+    "output":"A Type CNAME record provides the canonical hostname for an alias hostname. For example, (foo.com, relay1.bar.foo.com, CNAME) is a CNAME record.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the responsibility of the home network in GSM?",
+    "output":"The home network maintains a database known as the home location register (HLR), which contains the permanent cell phone number and subscriber profile information for each of its subscribers, as well as information about the current locations of these subscribers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between the query ARP message and the response ARP message in terms of the type of frame they are sent within?",
+    "output":"The query ARP message is sent within a broadcast frame, whereas the response ARP message is sent within a standard frame.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the advantage of 802.11 networks operating in the unlicensed spectrum?",
+    "output":"The advantage of 802.11 networks operating in the unlicensed spectrum is that they can be deployed without purchasing expensive spectrum use rights, making them financially attractive.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are some common security attacks that can be mounted by an intruder?",
+    "output":"An intruder can mount a wide variety of security attacks, including snooping on communication, impersonating another entity, hijacking an ongoing session, and denying service to legitimate network users by overloading system resources.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does OSPF provide security for exchanges between OSPF routers?",
+    "output":"OSPF provides security for exchanges between OSPF routers through authentication, which can be configured as simple or MD5 authentication.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can the frequent creation and closure of sockets in non-persistent HTTP impact the performance of a busy Web server?",
+    "output":"The frequent creation and closure of sockets in non-persistent HTTP can severely impact the performance of a busy Web server, although operating system tricks can be used to mitigate the problem.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the limitations of signature-based IDS systems?",
+    "output":"Signature-based IDS systems require previous knowledge of the attack to generate an accurate signature, are completely blind to new attacks, and can generate false alarms, and can become overwhelmed by the processing demands of comparing packets with an extensive collection of signatures.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens to the IP datagrams sent into the network?",
+    "output":"The IP datagrams are sent into the network, and when TCP receives a segment at the other end, it reassembles the data.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of a Web cache in relation to the origin server and the client browser?",
+    "output":"A Web cache acts as both a server and a client, receiving requests from and sending responses to the client browser, while also sending requests to and receiving responses from the origin server.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat was the state of computing and networking like for students in the 1970s?",
+    "output":"Students submitted computer programs as decks of punched cards for batch processing, and only some had direct access to computers, which were typically housed in a restricted area, and modems were slow and rare.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is a common example of a circuit-switched network?",
+    "output":"Traditional telephone networks are examples of circuit-switched networks, where a connection is established between the sender and receiver before information can be sent.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of visiting the site www.traceroute.org?",
+    "output":"To perform traceroutes from different cities to the same destination host and analyze the results.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main issue with traditional client-server architectures for file distribution?",
+    "output":"Traditional client-server architectures can put an enormous burden on the server and consume a large amount of server bandwidth.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the path an email message takes when it is sent from one user to another, and why is it done in two steps?",
+    "output":"The email message is first sent from the sender's user agent to the sender's mail server using SMTP, and then the sender's mail server uses SMTP to relay the message to the recipient's mail server. This two-step procedure is done so that the sender's mail server can repeatedly try to send the message to the recipient's mail server if it is unreachable.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the checksum in the UDP header?",
+    "output":"The checksum is used by the receiving host to check whether errors have been introduced into the segment.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens when a node's distance vector doesn't change in the Distance-Vector Algorithm?",
+    "output":"If a node's distance vector doesn't change, it doesn't send an update to its neighbors.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the end-to-end delay in a network?",
+    "output":"The end-to-end delay is the total delay from source to destination, which is the accumulation of nodal delays at each router and the source host.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a router allocate link bandwidth to multiple calls?",
+    "output":"A router allocates link bandwidth to multiple calls, but the sum of the allocated bandwidth to all calls should be less than the link capacity, and a call may reserve only a fraction of the link's bandwidth.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat information does a registrant need to provide to a registrar when registering a domain name?",
+    "output":"A registrant needs to provide the registrar with the names and IP addresses of their primary and secondary authoritative DNS servers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is it easier to deploy new Internet services, including security services, at higher layers of the protocol stack?",
+    "output":"It is generally easier to deploy new Internet services at higher layers because it only requires client and server application code, whereas deploying security services at lower layers requires broader infrastructure changes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy must the server program be executed before the client program in a client-server application over TCP?",
+    "output":"The server program must be executed before the client program in a client-server application over TCP because the server needs to be listening for incoming connections before the client can establish a connection.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the benefits of using digital signatures?",
+    "output":"Digital signatures provide message integrity, allowing the receiver to verify that the message was unaltered, as well as the source of the message, and they also provide a verifiable and non-forgeable way to sign digital documents.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is a leaky bucket specification, and how does it relate to packet flow?",
+    "output":"A leaky bucket specification (r, b) is a measure of the average rate and burst size of a packet flow, where the number of packets arriving at the leaky bucket is less than rt+b packets in every interval of time of length t for all t.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of ARP in a network?",
+    "output":"ARP resolves an IP address to a MAC address, similar to how DNS resolves host names to IP addresses.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do users access their email through web-based services?",
+    "output":"Users access their email through their web browsers, and the user agent is an ordinary web browser, communicating with its remote mailbox via HTTP.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the two fundamental approaches to moving data through a network of links and switches?",
+    "output":"The two approaches are circuit switching and packet switching, with circuit switching reserving resources along a path for the duration of a communication session, and packet switching using resources on demand.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the Flow Label field in the IPv6 datagram?",
+    "output":"The Flow Label field is a 20-bit field used to identify a flow of datagrams, although the exact meaning of a flow had yet to be determined.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow long does it take to move a message from source host to destination host without message segmentation, according to problem P31?",
+    "output":"The text does not provide the exact time, but it depends on the message size and transmission rate.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the host direct (demultiplex) arriving TCP segments to the appropriate socket?",
+    "output":"The host uses all four values of the four-tuple (source IP address, source port number, destination IP address, destination port number) to direct the segment to the appropriate socket.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the inactive period in a Zigbee network's super frame?",
+    "output":"The inactive period in a Zigbee network's super frame allows all devices, including the controller, to sleep and conserve power.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the home MSC in routing a call to a mobile GSM user?",
+    "output":"The home MSC receives the call, interrogates the HLR to determine the location of the mobile user, and sets up the second leg of the call through the network to the MSC in the visited network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the hierarchical structure of IP addresses in the Internet?",
+    "output":"The hierarchical structure of IP addresses allows routers to examine a portion of the packet's destination address and forward the packet to an adjacent router.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow has the number of SDN controllers changed over time?",
+    "output":"The number of SDN controllers has grown significantly since the initial NOX controller, with many open-source and company-specific controllers emerging.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the traditional basis for an Internet router's forwarding decision?",
+    "output":"An Internet router's forwarding decision has traditionally been based solely on a packet's destination address.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between the IPv6 datagram and the IPv4 datagram in terms of fragmentation and reassembly?",
+    "output":"IPv6 does not allow for fragmentation and reassembly at intermediate routers, whereas IPv4 does, and this functionality has been removed from the routers and placed in the end systems in IPv6.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are some possible services that the network layer could provide?",
+    "output":"Some possible services that the network layer could provide include guaranteed delivery, guaranteed delivery with bounded delay, in-order packet delivery, guaranteed minimal bandwidth, and security.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow is the server socket created in the TCPServer.py code?",
+    "output":"The server socket is created with the line `serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)`, which is similar to the client socket creation.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the approach taken in this chapter to cover the principles of reliable data transfer and congestion control?",
+    "output":"The approach taken is to alternate between basic principles and the TCP protocol, covering the principles first and then discussing how TCP specifically provides those services.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the data rates that can be achieved using twisted-pair copper wire for LANs?",
+    "output":"Data rates for LANs using twisted pair can range from 10 Mbps to 10 Gbps, depending on the thickness of the wire and the distance between the transmitter and receiver.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of estimating the average network delay (di) in the adaptive playout delay algorithm?",
+    "output":"The estimate of the average network delay is used to adjust the playout delay accordingly, taking into account the recently observed network delays.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat routing protocols are implemented in Google\u2019s B4 network?",
+    "output":"Two routing protocols, BGP (for routing between the data centers) and IS-IS (a close relative of OSPF, for routing within a data center), are implemented in Google\u2019s B4 network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does routing information propagate in a distance-vector algorithm when a mobile user moves from one network to another?",
+    "output":"When a mobile user moves from one network to another, the new foreign network advertises a specific route to the mobile user, and the old foreign network withdraws its route. Routing information propagates through the network, but it may take some time for all routers to learn the new path.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the challenge in provisioning tier-1 backbone networks to support delay-sensitive traffic?",
+    "output":"Ensuring that the end-to-end path is properly dimensioned to support multimedia applications, which requires cooperation among multiple ISPs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nCan a nonce and public key cryptography be used to solve the authentication problem?",
+    "output":"This issue is explored in the problems at the end of the chapter, but it is mentioned that the use of a nonce and symmetric key cryptography forms the basis of the ap4.0 protocol.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do autonomous systems (ASs) solve the problems of scale and administrative autonomy?",
+    "output":"ASs solve these problems by organizing routers into groups under the same administrative control, allowing each AS to operate and administer its network independently while still connecting to other outside networks.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does MPLS compute paths for packets among MPLS-capable routers, and how does it gather link-state information?",
+    "output":"Existing link-state routing algorithms (e.g., OSPF) have been extended to flood this information to MPLS-capable routers, but the actual path computation algorithms are not standardized and are currently vendor-specific.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the combined maximum rate at which data messages can flow from A to B and from C to D, given that A sends messages to B, and C sends messages to D?",
+    "output":"The combined maximum rate at which data messages can flow from A to B and from C to D is 1\/2 message per time slot, as the transmissions from A to B and from C to D interfere with each other.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the client process and server process in establishing a TCP connection?",
+    "output":"The client process initiates the connection by informing the client transport layer, while the server process is the other process that the client wants to connect to.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the IEEE 802 LAN\/MAN Standards Committee in the context of the Internet?",
+    "output":"The IEEE 802 LAN\/MAN Standards Committee specifies standards for network components, most notably for network links, such as Ethernet and wireless WiFi standards.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main function of TCP in terms of data transfer?",
+    "output":"TCP creates a reliable data transfer service on top of IP's unreliable best-effort service, ensuring that the data stream is uncorrupted, without gaps, without duplication, and in sequence.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the key features of 4G systems being deployed today?",
+    "output":"4G systems are based on LTE technology, feature an all-IP core network, and provide integrated voice and data at multi-Megabit speeds.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does SMTP operate in sending a simple ASCII message from one user to another?",
+    "output":"SMTP operates by having the client side of SMTP, running on the sender's mail server, open a TCP connection to an SMTP server, running on the recipient's mail server, and then sending the message into the TCP connection.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does Host B inform Host A of the spare room in the connection buffer?",
+    "output":"Host B tells Host A how much spare room it has in the connection buffer by placing its current value of rwnd in the receive window field of every segment it sends to A.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy do many multimedia applications prefer to run over UDP instead of TCP?",
+    "output":"Many multimedia applications prefer to run over UDP because they do not want their transmission rate throttled, even if the network is very congested, and instead prefer to pump their audio and video into the network at a constant rate and occasionally lose packets.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can a secure email system be designed to provide confidentiality, sender authentication, and message integrity?",
+    "output":"This can be done by combining the procedures for confidentiality and sender authentication\/message integrity. Alice creates a preliminary package with a digitally signed hash of the message, and then sends this package through the steps for confidentiality.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the 802.11 CSMA\/CA protocol handle retransmissions?",
+    "output":"If an acknowledgment is not received, the transmitting station reenters the backoff phase with a random value chosen from a larger interval.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the Cyclic redundancy check (CRC) field in an Ethernet frame?",
+    "output":"The CRC field allows the receiving adapter to detect bit errors in the frame, and if a frame fails the CRC check, it is discarded.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the Internet checksum work?",
+    "output":"The Internet checksum is computed by summing the bytes of data as 16-bit integers, taking the 1s complement of the sum, and carrying the result in the segment header. The receiver checks the checksum by taking the 1s complement of the sum of the received data and checking if the result is all 1 bits.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do packet-switched networks handle congestion when the arrival rate of packets exceeds the transmission rate of a link?",
+    "output":"Congestion occurs, causing packets to queue in the link's output buffer before being transmitted onto the link, resulting in queuing delays.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between the download-and-delete mode and the download-and-keep mode in POP3 from a user's perspective?",
+    "output":"From a user's perspective, the main difference between the download-and-delete mode and the download-and-keep mode in POP3 is that in the download-and-delete mode, the email messages are deleted from the mail server after they are downloaded to the client, whereas in the download-and-keep mode, the email messages are kept on the mail server even after they are downloaded to the client.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are some of the challenges and limitations of implementing municipal WiFi networks?",
+    "output":"Some of the challenges and limitations of implementing municipal WiFi networks include financial and operational concerns, as well as the limited range of 802.11 access points compared to 4G cellular base stations.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of a CDN, and how does it operate?",
+    "output":"A CDN operates by intercepting a user's request for content and redirecting it to a suitable CDN server cluster. The CDN must determine a suitable cluster and redirect the client's request to a server in that cluster.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the typical size of the client-side buffer in UDP streaming?",
+    "output":"The typical size of the client-side buffer in UDP streaming is big enough to hold less than a second of video.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow many Internet users were there worldwide in 2015, and what percentage of the world population did they represent?",
+    "output":"There were an estimated 3.2 billion Internet users worldwide in 2015, which represented approximately 40% of the world population.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the receiving side of a VoIP application handle packets that are delayed more than a certain threshold?",
+    "output":"The receiving side of a VoIP application typically disregards any packets that are delayed more than a certain threshold, for example, more than 400 msecs, effectively treating them as lost packets.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow are SNMP PDUs typically carried over the network?",
+    "output":"SNMP PDUs are typically carried in the payload of a UDP datagram, although they can be carried via many different transport protocols.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the limitations of the DV algorithm?",
+    "output":"The DV algorithm can converge slowly, have routing loops while converging, and suffers from the count-to-infinity problem.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat types of attacks are computer networks vulnerable to, and how can they be made more secure?",
+    "output":"Computer networks are vulnerable to many different types of attacks, and this chapter will survey some of these attacks and consider how computer networks can be made more secure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the payload field in the 802.11 frame?",
+    "output":"The payload field typically consists of an IP datagram or an ARP packet, and is permitted to be as long as 2,312 bytes, although it is typically fewer than 1,500 bytes.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the Dynamic Host Configuration Protocol (DHCP)?",
+    "output":"DHCP is a protocol that allows a host to obtain an IP address automatically, as well as learn additional information such as its subnet mask, default gateway, and local DNS server.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is Google\u2019s Software-Defined Global Network, and how does it use SDN?",
+    "output":"Google\u2019s Software-Defined Global Network, called B4, has a Google-designed SDN control plane built on OpenFlow, and it is able to drive WAN links at near 70% utilization over the long run and split application flows among multiple paths based on application priority and existing flow demands.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is packet switching more efficient than circuit switching in terms of sharing transmission capacity?",
+    "output":"Packet switching is more efficient because it allows for better sharing of transmission capacity, as users only occupy the link when they are actively transmitting data, whereas circuit switching pre-allocates link time regardless of demand.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is ICMP and how is it used?",
+    "output":"ICMP (Internet Control Message Protocol) is used by hosts and routers to communicate network-layer information to each other, typically for error reporting.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the IEEE 802.11 wireless LAN standard, also known as WiFi?",
+    "output":"The IEEE 802.11 wireless LAN standard, also known as WiFi, is a class of standards that has clearly emerged as the winner for wireless LAN technology, with several standards in the IEEE 802.11 family.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the next step after Bob's laptop has initialized its networking components?",
+    "output":"Bob's laptop is ready to begin processing the Web page fetch, and when Bob types the URL for www.google.com into his Web browser, he begins the long chain of events that will eventually lead to the Web page being displayed.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nIs a NAK-only protocol preferable to a protocol that uses ACKs when the sender sends data infrequently?",
+    "output":"Yes, a NAK-only protocol is preferable because it reduces the overhead of sending ACKs for every packet, which is unnecessary when data is sent infrequently.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nCan the receiver be absolutely certain that no bit errors have occurred if the computed Internet checksum matches the value carried in the checksum field?",
+    "output":"No, the receiver cannot be absolutely certain that no bit errors have occurred even if the computed Internet checksum matches the value carried in the checksum field.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do cable modems request mini-slots from the CMTS?",
+    "output":"Cable modems send mini-slot-request frames to the CMTS during a special set of interval mini-slots dedicated for this purpose, which are transmitted in a random access manner.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do autonomous systems advertise reachability information to each other?",
+    "output":"Autonomous systems do not actually send messages to each other, but instead routers do. Routers exchange routing information over semi-permanent TCP connections using port 179, and each such TCP connection is called a BGP connection.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is indirect routing to a mobile node?",
+    "output":"In indirect routing, a correspondent sends a datagram to the mobile node's permanent address, and the home agent intercepts the datagram and forwards it to the mobile node in a two-step process, first to the foreign agent and then to the mobile node.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the relationship between the client buffer size B, the number of bits Q, and the video consumption rate r?",
+    "output":"The client buffer size B is larger than the number of bits Q, and the video consumption rate r is the rate at which the client draws bits out of the client application buffer during playback.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the protocols used for Internet mail, and what are their roles?",
+    "output":"SMTP is used to transfer mail from the sender's mail server to the recipient's mail server, and also from the sender's user agent to the sender's mail server. A mail access protocol, such as POP3, is used to transfer mail from the recipient's mail server to the recipient's user agent.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the destination port of the UDP segment that contains the DNS query message?",
+    "output":"The destination port of the UDP segment that contains the DNS query message is 53 (DNS server).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the efficiency of slotted ALOHA and pure ALOHA vary with the number of nodes (N)?",
+    "output":"The efficiency of slotted ALOHA and pure ALOHA can be graphed as a function of p for different values of N.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main goal of secure communication in computer networks?",
+    "output":"The main goal of secure communication in computer networks is to defend against nasty bad guys and ensure that communication between parties, such as Alice and Bob, is secure.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the three sections of an HTTP response message, and what do they contain?",
+    "output":"An HTTP response message consists of an initial status line, header lines, and an entity body, which contains the requested object.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the definition of a node in the context of the link layer?",
+    "output":"A node is any device that runs a link-layer (i.e., layer 2) protocol, including hosts, routers, switches, and WiFi access points.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the benefit of using a proprietary network application, and what are its limitations?",
+    "output":"The benefit of using a proprietary network application is that the developer has complete control over the code. However, the limitation is that other independent developers will not be able to develop code that interoperates with the application.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the relationship between the transport layer and the network layer in the protocol stack?",
+    "output":"The transport layer lies just above the network layer, and while a transport-layer protocol provides logical communication between processes running on different hosts, a network-layer protocol provides logical communication between hosts.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the installation of a Web cache affect the average delay, and what is the resulting delay?",
+    "output":"The installation of a Web cache reduces the average delay to just slightly greater than 1.2 seconds, which is lower than the delay achieved by upgrading the access link.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy does Bob\u2019s laptop need to know the IP address of www.google.com?",
+    "output":"Bob\u2019s laptop needs to know the IP address of www.google.com in order to create a socket to send the HTTP request.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is host aliasing in DNS?",
+    "output":"Host aliasing allows a host with a complicated hostname to have one or more alias names, which are typically more mnemonic than the canonical hostname.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens to the signal strength as the distance between the sender and receiver increases?",
+    "output":"The signal strength decreases as the distance between the sender and receiver increases, resulting in decreased signal strength, also referred to as path loss.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the three broad classes of approaches for dealing with the problem of TCP's congestion-control response in wireless networks?",
+    "output":"The three broad classes of approaches are local recovery, which recovers from bit errors when and where they occur, and two other approaches that are not specified in the provided text snippet.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the important messages flowing from the controller to the controlled switch in the OpenFlow protocol?",
+    "output":"The important messages flowing from the controller to the controlled switch are Configuration, Modify-State, Read-State, and Send-Packet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the rtupdate0() routine in the programming assignment?",
+    "output":"The rtupdate0() routine is called when node 0 receives a routing packet that was sent to it by one of its directly connected neighbors, and it updates its own distance table using the received values and informs its directly connected neighbors of any changes in minimum cost.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the receiving entity verify the authenticity of the IPsec datagram?",
+    "output":"The receiving entity verifies the authenticity of the IPsec datagram by calculating the MAC of the enchilada and verifying that it is consistent with the value in the ESP MAC field.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the traffic engineering network-control application interact with the network control servers in Google\u2019s B4 network?",
+    "output":"The traffic engineering network-control application, sitting logically above the set of network control servers, interacts with these servers to provide global, network-wide bandwidth provisioning for groups of application flows.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the link layer move packets between nodes in the Internet?",
+    "output":"The link layer moves packets between nodes by delivering datagrams to the next node along the route, using a specific link-layer protocol that provides services such as reliable delivery over one link.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the reasons for Ethernet's success in the LAN market?",
+    "output":"Ethernet's success can be attributed to its early deployment, simplicity, and cost-effectiveness, as well as its ability to evolve and increase data rates over time.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of well-known port numbers, and where can a list of them be found?",
+    "output":"Well-known port numbers are assigned to popular applications, such as Web servers and mail servers, and a list of them can be found at www.iana.org.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the concept of fairness in congestion control, and how is it related to TCP's AIMD algorithm?",
+    "output":"Fairness in congestion control means that each connection gets an equal share of the link bandwidth. TCP's AIMD algorithm is fair because it converges to provide an equal share of a bottleneck link's bandwidth among competing TCP connections.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of network applications in the context of computer networking?",
+    "output":"Network applications are the raisons d\u2019\u00eatre of a computer network, as they have been the driving force behind the Internet\u2019s success, motivating people to make the Internet an integral part of their daily activities.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is cyclic redundancy check (CRC) used at the link layer instead of checksumming?",
+    "output":"CRC is used at the link layer because it can be implemented in dedicated hardware, allowing for faster and more complex error-detection operations. CRC provides stronger protection against errors than checksumming.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the three broad approaches towards providing network-level support for multimedia applications?",
+    "output":"The three approaches are: making the best of best-effort service, differentiated service, and per-connection Quality-of-Service (QoS) guarantees.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the format of a link-layer frame handled by an MPLS-capable router?",
+    "output":"A link-layer frame transmitted between MPLS-capable devices has a small MPLS header added between the layer-2 header and layer-3 header. The MPLS header includes fields such as the label and 3 bits reserved for experimental use.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the scenario described in Figure 3.47?",
+    "output":"The scenario in Figure 3.47 involves four hosts transmitting packets over overlapping two-hop paths, with each host using a timeout\/retransmission mechanism to implement a reliable data transfer service.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do devices within a NAT-controlled home network typically obtain their IP addresses?",
+    "output":"Devices within a NAT-controlled home network typically obtain their IP addresses from a DHCP server running on the NAT-enabled router, which in turn obtains its IP address from the ISP's DHCP server.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the 802.1Q standard, and what does it cover?",
+    "output":"The 802.1Q standard covers the details of VLANs, including how they are defined and how they work.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the impact of the stop-and-wait behavior on the performance of the rdt3.0 protocol?",
+    "output":"The stop-and-wait behavior results in a very low sender utilization, with the sender being busy only 2.7 hundredths of one percent of the time, and an effective throughput of only 267 kbps, even though a 1 Gbps link is available.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the two rules embodied in the family of carrier sense multiple access (CSMA) and CSMA with collision detection (CSMA\/CD) protocols?",
+    "output":"The two rules are: listen before speaking (carrier sensing) and stop talking if someone else begins talking at the same time (collision detection).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can 802.11 be used as a point-to-point link?",
+    "output":"If two nodes each have a directional antenna, they can point their directional antennas at each other and run the 802.11 protocol over what is essentially a point-to-point link, allowing for wireless point-to-point connections over tens of kilometers distance.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are tier-1 ISPs, and how do they differ from global transit ISPs?",
+    "output":"Tier-1 ISPs are similar to global transit ISPs but do not have a presence in every city worldwide. They are regional ISPs that connect to access ISPs in a given region and then connect to other tier-1 ISPs.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens to the average queue length as the traffic intensity approaches 1?",
+    "output":"The average queue length gets larger and larger as the traffic intensity approaches 1.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens to a damaged segment in UDP?",
+    "output":"Some implementations of UDP simply discard the damaged segment, while others pass the damaged segment to the application with a warning.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the GetRequest, GetNextRequest, and GetBulkRequest PDUs?",
+    "output":"These PDUs are sent from a managing server to an agent to request the value of one or more MIB objects at the agent's managed device.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the 3G core network, and what does it connect?",
+    "output":"The 3G core cellular data network connects radio access networks to the public Internet, and it interoperates with components of the existing cellular voice network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between the welcoming socket and the newly created server-side connection socket in TCP?",
+    "output":"The welcoming socket is the initial point of contact for all clients wanting to communicate with the server, while the newly created server-side connection socket is dedicated to a particular client making the connection.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the scenario described in problem P21, where A and B are two network entities?",
+    "output":"B has a supply of data messages that will be sent to A according to certain conventions, and A must send a request message to B to receive a data message.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can compression be used to create multiple versions of the same video?",
+    "output":"Compression can be used to create multiple versions of the same video, each at a different quality level, allowing users to choose which version to watch based on their available bandwidth.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the application-level protocol designed for the automatic teller machine and the bank's centralized computer?",
+    "output":"The protocol allows a user's card and password to be verified, the account balance to be queried, and an account withdrawal to be made, while also handling cases where there is not enough money in the account to cover the withdrawal.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is UDP often used for applications such as DNS?",
+    "output":"UDP is used for DNS because it does not introduce any delay to establish a connection, making it faster than TCP.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are some examples of services that a smartphone can access through a cellular data network?",
+    "output":"A smartphone can access location-dependent services (e.g., maps and restaurant recommendations) and perhaps even watch streaming video through a cellular data network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are end systems in computer networking?",
+    "output":"End systems are the computers and other devices connected to the Internet, which include desktop computers, servers, mobile devices, and non-traditional \"things\" such as wearables and home sensors.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of a checksum in a transmitted packet?",
+    "output":"The purpose of a checksum is to detect bit errors in a transmitted packet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhere can one find more information about the DNS protocol?",
+    "output":"The interested reader is referred to RFC 1034 and RFC 1035, and updated in several additional RFCs, as well as the book by Albitz and Liu, and the retrospective paper by Mockapetris.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the 802.11 CSMA\/CA protocol work when a station has a frame to transmit?",
+    "output":"The station senses the channel, and if idle, transmits its frame after a short period of time known as the Distributed Inter-frame Space (DIFS), or chooses a random backoff value and counts down after DIFS when the channel is sensed idle.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat does Bob's laptop do with the DHCP ACK message?",
+    "output":"Bob's laptop receives the Ethernet frame, extracts the IP datagram, extracts the UDP segment, and extracts the DHCP ACK message, and then records its IP address and the IP address of its DNS server.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the consequence of operating near link capacity in a network with infinite buffers?",
+    "output":"As the sending rate approaches R\/2, the average delay becomes larger and larger, and when the sending rate exceeds R\/2, the average number of queued packets in the router is unbounded, and the average delay between source and destination becomes infinite.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the flow table entries at packet switches s1 and s3 to route arriving datagrams with a source address of h3 or h4 to the destination hosts?",
+    "output":"The flow table entries at packet switches s1 and s3 should include rules to forward arriving datagrams to the destination hosts specified in the destination address field in the IP datagram, including cases where the arriving datagram is destined for a directly attached host or should be forwarded to a neighboring router.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does IPsec prevent tampering with datagrams?",
+    "output":"IPsec prevents tampering with datagrams by using a Message Authentication Code (MAC) to ensure the integrity of the datagram, making it difficult for an attacker to flip bits or modify the datagram without being detected.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is one possible solution to the limitation of the conventional hierarchical architecture?",
+    "output":"One possible solution is to deploy higher-rate switches and routers, but this would significantly increase the cost of the data center.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the limitation of Diffserv service when the network is running at moderate load?",
+    "output":"When the network is running at moderate load, there may be no perceived difference between a best-effort service and a Diffserv service, as end-to-end delay is usually dominated by access rates and router hops rather than by queuing delays in the routers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat was the significance of 1993 in the development of the World Wide Web?",
+    "output":"Around the end of 1993, there were about two hundred Web servers in operation, and several researchers were developing Web browsers with GUI interfaces.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a destination host determine whether a series of datagrams are fragments of the same original datagram?",
+    "output":"The destination host examines the identification numbers of the datagrams to determine which of the datagrams are actually fragments of the same larger datagram.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the basic tool for observing the messages exchanged between executing protocol entities?",
+    "output":"The basic tool for observing the messages exchanged between executing protocol entities is called a packet sniffer, which passively copies (sniffs) messages being sent from and received by your computer and displays the contents of the various protocol fields of these captured messages.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the Protocol field in the IP datagram header?",
+    "output":"The Protocol field indicates the specific transport-layer protocol to which the data portion of the IP datagram should be passed, such as TCP or UDP.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do nodes recompute their distance vectors in the Distance-Vector Algorithm?",
+    "output":"Each node computes its new distance vector by taking the minimum cost path to each destination, using the distance vectors received from its neighbors.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat information is included in the destination address attached to a packet in UDP socket programming?",
+    "output":"The destination address includes the destination host's IP address and the destination socket's port number, which allows routers to route the packet to the destination host and identify the particular socket.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the intervening traffic affect the throughput of downloads in a network?",
+    "output":"The intervening traffic can affect the throughput of downloads by creating a bottleneck link that has a high transmission rate but is shared by many other data flows.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the TCP specification solve the problem of Host A being blocked when rwnd = 0?",
+    "output":"The TCP specification requires Host A to continue to send segments with one data byte when B's receive window is zero, which will be acknowledged by the receiver, eventually allowing the buffer to empty and the acknowledgments to contain a nonzero rwnd value.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the three categories of firewalls?",
+    "output":"Firewalls can be classified into three categories: traditional packet filters, stateful filters, and application gateways.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the backbone area in OSPF?",
+    "output":"The backbone area is responsible for routing traffic between other areas in the AS, and contains all area border routers in the AS, as well as possibly non-border routers.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the choice of modulation technique affect the BER and transmission rate of a wireless link?",
+    "output":"For a given SNR, a modulation technique with a higher bit transmission rate will have a higher BER, but dynamic selection of the physical-layer modulation technique can be used to adapt the modulation technique to the current channel conditions, allowing for a trade-off between transmission rate and BER.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the RSA algorithm and how does it work?",
+    "output":"The RSA algorithm is a public-key encryption algorithm that uses the product of two large prime numbers, p and q, to create a public and private key pair. The public key is used for encryption, while the private key is used for decryption.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the three phases of a POP3 transaction, and what happens during each phase?",
+    "output":"The three phases of a POP3 transaction are authorization, transaction, and update. During authorization, the user agent sends a username and password to authenticate the user. During transaction, the user agent retrieves messages and marks messages for deletion. During update, the mail server deletes the messages that were marked for deletion.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the effect of a traffic intensity of 1 on a link, and what is the typical delay associated with it?",
+    "output":"As the traffic intensity approaches 1, the delay on a link becomes very large and grows without bound, resulting in unacceptable delays.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does node y inform node z of its new distance vector?",
+    "output":"Node y informs node z of its new distance vector at time t1, indicating that its minimum cost to x is 6.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the problem with using an encrypted password in protocol ap3.1?",
+    "output":"The problem is that Trudy can still eavesdrop on Alice's communication, record the encrypted version of the password, and play it back to Bob to pretend that she is Alice, making the use of an encrypted password ineffective.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is error detection and correction in the context of link-layer protocols?",
+    "output":"Error detection involves including error-detection bits in the frame and performing an error check at the receiving node, while error correction determines the location of errors and corrects them.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the transmission delay, and what happens during this delay?",
+    "output":"The transmission delay is the time it takes to transmit a packet onto a link, during which the packet is sent from the upstream node through a router to the next node.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat were some of the other important networking activities underway in the 1970s, and how did they contribute to the development of the Internet?",
+    "output":"Other important networking activities, such as the development of ALOHAnet and Ethernet, contributed to the development of the Internet. These networks and protocols, such as the ALOHA protocol and Ethernet protocol, were developed in the 1970s and laid the groundwork for modern networking technologies.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the limitation of WiFi hotspots in terms of coverage area?",
+    "output":"WiFi hotspots have a small coverage area of between 10 and 100 meters in diameter.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the format of a typical email message header in SMTP?",
+    "output":"A typical message header consists of a series of header lines, defined in RFC 5322, which are separated from the body by a blank line, and contain readable text with keywords followed by a colon and a value.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the main topics that were covered in this chapter on wireless and mobile networks?",
+    "output":"The main topics include the principles, common link technologies, and network architectures for supporting wireless and mobile communication, as well as the impact of wireless links and mobility on transport-layer protocols and networked applications.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of RFC 826 and RFC 1180 in the context of ARP?",
+    "output":"RFC 826 defines ARP for Ethernet, while RFC 1180 provides a nice introduction to ARP in the TCP\/IP tutorial.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the key components of a flow table entry in OpenFlow?",
+    "output":"A flow table entry includes a set of header field values to which an incoming packet will be matched, a set of counters that are updated as packets are matched, and a set of actions to be taken when a packet matches the entry.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow many files will the server need to store in a DASH system with N video versions and N audio versions, if the audio is mixed in with the video?",
+    "output":"The server will need to store N^2 files, each with a different combination of video and audio versions.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is electronic mail, and how has it evolved over the years?",
+    "output":"Electronic mail is an asynchronous communication medium that has been around since the beginning of the Internet, and has become more elaborate and powerful over the years, with features such as messages with attachments, hyperlinks, and embedded photos.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does Bob verify the sender authentication and message integrity of a secure email message sent by Alice?",
+    "output":"Bob applies Alice's public key to the signed message digest and compares the result with his own hash of the message. If the two results are the same, Bob can be confident that the message came from Alice and is unaltered.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens to the efficiency of CSMA\/CD as the propagation delay approaches zero?",
+    "output":"As the propagation delay approaches zero, the efficiency of CSMA\/CD approaches 1, which matches our intuition that if the propagation delay is zero, colliding nodes will not experience any delay.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the timer in the GBN sender?",
+    "output":"The timer is used to recover from lost data or acknowledgment packets, and if a timeout occurs, the sender resends all packets that have been previously sent but not yet acknowledged.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the timestamp in a VoIP application?",
+    "output":"The sender stamps each chunk with the time at which the chunk was generated, allowing the receiver to delay playout accordingly.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the issue with distributing the shared authentication key to communicating entities in a network?",
+    "output":"The issue is how to distribute the secret authentication key to each of the routers in the autonomous system, as physically visiting each router is impractical and each router needs to have the same authentication key.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the average queuing delay for N packets arriving simultaneously to a link with a transmission rate of R?",
+    "output":"The average queuing delay for N packets arriving simultaneously to a link with a transmission rate of R can be calculated by summing the transmission times for each packet and dividing by N.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the format of an IPv4 datagram?",
+    "output":"The format of an IPv4 datagram includes several key fields, including the version number, header length, type of service, total length, identification, flags, fragment offset, time to live, protocol, header checksum, source IP address, destination IP address, options, and data.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of completing the study of the link layer in the context of computer networking?",
+    "output":"Completing the study of the link layer marks the end of the journey down the protocol stack, but the study of computer networking is not yet complete, as there are still advanced topics to cover that require a firm foundation in all layers of the protocol stack.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is another example of a human protocol that can be used to understand computer network protocols?",
+    "output":"Another example of a human protocol is a question-and-answer protocol in a college class, where the teacher asks if there are any questions, a student raises their hand, and the teacher acknowledges and answers the question.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the advantage of using HTTP streaming over TCP?",
+    "output":"The advantage of using HTTP streaming over TCP is that it allows for continuous playout, reduces the cost of a large-scale deployment, and allows the video to traverse firewalls and NATs more easily.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the protocol number in the new IPv4 header field of the IPsec datagram?",
+    "output":"The protocol number in the new IPv4 header field is set to 50, designating that this is an IPsec datagram using the ESP protocol.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a CDN use IP-anycast to distribute content?",
+    "output":"A CDN assigns the same IP address to each of its servers, advertises this IP address using BGP, and uses the BGP route-selection algorithm to route packets to the closest server.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is one approach to improving the quality of multimedia applications in a network?",
+    "output":"Providing enough link capacity throughout the network so that network congestion, and its consequent packet delay and loss, never (or only very rarely) occurs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nCan you \"decrypt\" a hash of a message to get the original message?",
+    "output":"No, you cannot \"decrypt\" a hash of a message to get the original message, as hashing is a one-way process.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a SIP registrar update a user's IP address?",
+    "output":"A SIP registrar updates a user's IP address when the user's device sends a new register message or a refresh register message.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the two mechanisms used to provide periodic playout of voice chunks in the presence of random network jitter?",
+    "output":"The two mechanisms are prepending each chunk with a timestamp and delaying playout of chunks at the receiver.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between load-sensitive and load-insensitive routing algorithms?",
+    "output":"Load-sensitive algorithms vary dynamically to reflect the current level of congestion in the underlying link, whereas load-insensitive algorithms do not explicitly reflect the current level of congestion.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main difference between UDP and TCP protocols?",
+    "output":"Unlike UDP, TCP is a connection-oriented protocol, which means that before the client and server can start to send data to each other, they first need to handshake and establish a TCP connection.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the switching fabric in a router?",
+    "output":"The switching fabric is at the heart of a router, responsible for forwarding packets from an input port to an output port.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the sender detect packet loss in the rdt3.0 protocol?",
+    "output":"The sender detects packet loss by waiting for a certain amount of time, known as the timeout, and if no ACK is received within that time, it retransmits the packet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhy is cryptography a cornerstone of network security?",
+    "output":"Cryptography is central to providing confidentiality, end-point authentication, and message integrity, making it a fundamental component of network security.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main challenge in the upstream direction of cable modem communication?",
+    "output":"The main challenge is that multiple cable modems share the same upstream channel to the CMTS, which can lead to collisions.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the acknowledgment number that Host B sends to Host A if the first segment is lost but the second segment arrives at B?",
+    "output":"The acknowledgment number that Host B sends to Host A is 110.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the truncation attack, and how is it prevented in an SSL connection?",
+    "output":"The truncation attack is when an attacker ends the SSL session early with a TCP FIN, and it is prevented by including a field in the record to indicate whether it serves to terminate the SSL session.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the recommended initial value of TimeoutInterval in TCP?",
+    "output":"The recommended initial value of TimeoutInterval in TCP is 1 second, as specified in RFC 6298.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the focus of Wireshark Lab: HTTP, and what aspects of the HTTP protocol does it explore?",
+    "output":"Wireshark Lab: HTTP explores several aspects of the HTTP protocol, including the basic GET\/reply interaction, HTTP message formats, retrieving large HTML files, retrieving HTML files with embedded URLs, persistent and non-persistent connections, and HTTP authentication and security.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a DSL link allow a telephone call and an Internet connection to share the same link simultaneously?",
+    "output":"The DSL link uses frequency-division multiplexing, which encodes data and telephone signals at different frequencies, making the single DSL link appear as if there were three separate links.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the client-server architecture work?",
+    "output":"In a client-server architecture, there is an always-on host called the server that services requests from many other hosts called clients, and clients do not directly communicate with each other.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does 802.11 Power Management work?",
+    "output":"A node indicates to the AP that it will be going to sleep by setting the power-management bit in the header of an 802.11 frame to 1, and the AP buffers any frames destined for the sleeping host for later transmission.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of the 304 Not Modified status line in an HTTP response message?",
+    "output":"The 304 Not Modified status line tells the cache that it can forward its cached copy of the object to the requesting browser, without having to retrieve the object from the server.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the two broad classes of symmetric encryption techniques, and which one is used in many secure Internet protocols?",
+    "output":"The two broad classes of symmetric encryption techniques are stream ciphers and block ciphers, and block ciphers are used in many secure Internet protocols, including PGP, SSL, and IPsec.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens when a client TCP receives a segment from the server with an acknowledgment during the connection teardown process?",
+    "output":"When it receives this segment, the client TCP enters the FIN_WAIT_2 state, where it waits for another segment from the server with the FIN bit set to 1.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is Open Shortest Path First (OSPF) and how does it work?",
+    "output":"OSPF is a link-state protocol that uses flooding of link-state information and a Dijkstra\u2019s least-cost path algorithm, allowing each router to construct a complete topological map of the entire autonomous system and determine a shortest-path tree to all subnets.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does Alice encrypt a message using Bob's public key?",
+    "output":"Alice encrypts a message by performing the exponentiation me, where m is the message and e is Bob's public key, and then computing the integer remainder when me is divided by n.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nMust the rate at which the sender is sending when the loss event occurred be approximately equal to cwnd segments per RTT?",
+    "output":"No, the rate at which the sender is sending when the loss event occurred does not have to be approximately equal to cwnd segments per RTT. The sender may be sending at a rate that is less than or greater than cwnd segments per RTT.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the limitations of error concealment schemes in VoIP applications?",
+    "output":"Error concealment schemes work for relatively small loss rates (less than 15 percent) and for small packets (4\u201340 msecs), but break down when the loss length approaches the length of a phoneme (5\u2013100 msecs).\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat advice do you have for students entering the networking field?",
+    "output":"Our advice for students entering the networking field is to be familiar with subjects beyond protocols and routing algorithms, and to think of the new resource constraints in networks: human time and effort, rather than just bandwidth or storage.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do the client and server use the symmetric keys generated during the key derivation phase?",
+    "output":"The client and server use the symmetric keys to encrypt and decrypt data, and to verify the integrity of the data using MAC keys.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the current state of the Internet in terms of its complexity and structure?",
+    "output":"Today's Internet is a complex network of networks, consisting of a dozen or so tier-1 ISPs and hundreds of thousands of lower-tier ISPs, with diverse coverage and interconnections.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the recommendation for setting ECN congestion indications according to RFC 3168?",
+    "output":"RFC 3168 recommends that an ECN congestion indication be set only in the face of persistent congestion, although the decision of when a router is congested is a configuration choice made possible by the router vendor and decided by the network operator.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is an RTP session, and what types of streams belong to it?",
+    "output":"An RTP session is a collection of RTP streams that belong together, such as audio and video streams emanating from multiple senders in a video conference application.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the switching fabric in a router?",
+    "output":"The switching fabric connects the router's input ports to its output ports, and is completely contained within the router.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nDid Leonard Kleinrock's vision for the Internet come true?",
+    "output":"Kleinrock's vision of the Internet as ubiquitous and always available has come true, but he never anticipated that his 99-year-old mother would use the Internet, which she did.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can the contribution of delay components vary in a network?",
+    "output":"The contribution of delay components can vary significantly, for example, dprop can be negligible for a link connecting two routers on the same university campus, but can be hundreds of milliseconds for two routers interconnected by a geostationary satellite link.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the function of a digital subscriber line access multiplexer (DSLAM) in a telco's local central office (CO)?",
+    "output":"The DSLAM takes analog signals from many homes, translates them back into digital format, and sends the data into the Internet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens when the TCP sender receives data from the application?",
+    "output":"The TCP sender encapsulates the data in a segment, passes the segment to IP, and starts the timer if it is not already running for some other segment.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the trends in data center networking among Internet cloud giants such as Google, Facebook, Amazon, and Microsoft?",
+    "output":"These companies are continually deploying new data center network designs that reduce costs and improve delay and throughput performance, including new interconnection architectures and network protocols.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does an institution typically create a VPN over the existing public Internet?",
+    "output":"An institution creates a VPN by encrypting the inter-office traffic before it enters the public Internet, using a protocol such as IPsec.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between an external BGP (eBGP) connection and an internal BGP (iBGP) connection?",
+    "output":"An eBGP connection spans two ASs, while an iBGP connection is between routers in the same AS. eBGP connections are typically used for each link that directly connects gateway routers in different ASs.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the main distinction between managing and monitoring a network?",
+    "output":"The main distinction is that managing a network involves not only monitoring but also controlling, configuring, analyzing, evaluating, and testing the network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nCan traditional packet filters filter packets based on TCP flag bits as well as other header fields?",
+    "output":"Yes, traditional packet filters can filter packets based on TCP flag bits as well as other header fields.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the key distinguishing features of streaming stored video applications?",
+    "output":"The key distinguishing features of streaming stored video applications are: (i) streaming, (ii) interactivity, and (iii) continuous playout.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does a SIP proxy server obtain the current IP address of a user?",
+    "output":"The SIP proxy server obtains the current IP address of a user by forwarding the INVITE message to the user's registrar\/proxy.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow do TCP senders determine their sending rates to avoid congesting the network?",
+    "output":"TCP senders determine their sending rates based on local information, using guiding principles such as decreasing the rate when a segment is lost and increasing the rate when an ACK arrives for a previously unacknowledged segment.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat will be examined in the second part of the chapter?",
+    "output":"The second part of the chapter will examine how the fundamental cryptography principles can be used to create secure networking protocols, covering secure protocols in each of the top four layers, including the application layer.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the type-of-service (ToS) field in the IPv4 header?",
+    "output":"The ToS field provides an indication of the abstract parameters of the quality of service desired, to guide the selection of the actual service parameters when transmitting a datagram through a particular network.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the local recovery approach in TCP for wireless links?",
+    "output":"In the local recovery approach, the TCP sender is blissfully unaware that its segments are traversing a wireless link, and it does not take into account the characteristics of the wireless link.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the vision of providing different levels of service to different classes of traffic?",
+    "output":"The vision is to provide different levels of service to different classes of traffic, which was clear more than four decades ago, but it's taken a long time to realize this vision.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of HTTP in the Web application?",
+    "output":"HTTP defines the format and sequence of messages exchanged between browser and Web server, and is only one piece (albeit an important piece) of the Web application.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the benefits of incorporating RTP into an application?",
+    "output":"Incorporating RTP into an application allows it to more easily interoperate with other networked multimedia applications, as RTP provides a standardized packet structure that includes fields for audio\/video data, sequence number, and timestamp.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the first FEC mechanism work in VoIP applications?",
+    "output":"The first FEC mechanism sends a redundant encoded chunk after every n chunks, which is obtained by exclusive OR-ing the n original chunks, allowing the receiver to fully reconstruct the lost packet if any one packet of the group is lost.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the significance of the starting sequence numbers in a Telnet session?",
+    "output":"The starting sequence numbers are randomly chosen by the client and server, and are used to initialize the sequence number field in the TCP segments sent between them.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat does the source host receive if the target host is not running an application with the specified TCP port?",
+    "output":"The source host receives a TCP RST segment from the target host, indicating that the SYN segment reached the target host, but the target host is not running an application with the specified TCP port.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the role of the metering function in the Diffserv architecture?",
+    "output":"The role of the metering function is to compare the incoming packet flow with the negotiated traffic profile and to determine whether a packet is within the negotiated traffic profile.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat happens when the source begins to send multiple packets to the destination through a router?",
+    "output":"At time L\/R, the router begins to forward the first packet, and the source begins to send the second packet. At time 2L\/R, the destination has received the first packet, and the router has received the second packet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can digital audio be converted back to an analog signal for playback through audio speakers?",
+    "output":"Digital audio can be converted back to an analog signal for playback through audio speakers by decoding the digital signal, but the decoded analog signal is only an approximation of the original signal and may have noticeably degraded sound quality.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does node z compute its new least cost to x after receiving node y's new distance vector?",
+    "output":"Node z computes a new least cost to x of Dz(x)=min{50+0,1+6}=7, since it knows it can get to y with a cost of 1.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of designing a no-frills, bare-bones transport protocol like UDP?",
+    "output":"The purpose of designing a no-frills, bare-bones transport protocol like UDP is to provide a simple and efficient way to transport data between applications, without the overhead of complex features like connection establishment and reliability.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is Leonard Kleinrock's vision for the future of networking?",
+    "output":"Kleinrock anticipates considerable deployment of nomadic computing, mobile devices, and smart spaces, with the infrastructure itself becoming more advanced, but also envisions new challenges and opportunities arising from these developments.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the purpose of the IP address field in the IP header, and how many IP addresses can a router have?",
+    "output":"The IP address field in the IP header is used to identify the source and destination hosts. A router can have multiple IP addresses, one for each interface.",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nOver what type of cabling can Gigabit Ethernet run?",
+    "output":"Gigabit Ethernet can run over category 5 UTP cabling, in addition to optical fiber.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the two predominant architectural paradigms used in modern network applications?",
+    "output":"The two predominant architectural paradigms used in modern network applications are the client-server architecture and the peer-to-peer (P2P) architecture.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the difference between preemptive and non-preemptive priority queuing?",
+    "output":"Non-preemptive priority queuing does not interrupt the transmission of a packet once it has begun, whereas preemptive priority queuing may interrupt the transmission of a packet to transmit a higher-priority packet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow does the TCP sender react to an ACK with an ECE congestion indication?",
+    "output":"The TCP sender reacts to an ACK with an ECE congestion indication by halving the congestion window, as it would react to a lost segment using fast retransmit, and sets the CWR (Congestion Window Reduced) bit in the header of the next transmitted TCP sender-to-receiver segment.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHas DNS demonstrated itself to be robust against attacks?",
+    "output":"Yes, DNS has demonstrated itself to be surprisingly robust against attacks, with no successful attack having impeded the DNS service to date.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat are the three questions that arise when considering how a TCP sender limits the rate at which it sends traffic into its connection?",
+    "output":"The three questions are: how does a TCP sender limit the rate at which it sends traffic into its connection, how does a TCP sender perceive that there is congestion on the path between itself and the destination, and what algorithm should the sender use to change its send rate as a function of perceived end-to-end congestion.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the recipe to define subnets in a general interconnected system of routers and hosts?",
+    "output":"To determine the subnets, detach each interface from its host or router, creating islands of isolated networks, with interfaces terminating the end points of the isolated networks. Each of these isolated networks is called a subnet.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nHow can Trudy, pretending to be Alice, authenticate herself to Bob as Alice in the authentication protocol in Figure 8.18?",
+    "output":"Trudy can authenticate herself to Bob as Alice by intercepting Alice's messages and then pretending to be Alice to Bob, using the same nonce that Alice used.\n",
+    "input":""
+  },
+  {
+    "instruction":"The following question is relevant to Computer Networks:\nWhat is the estimated time needed to request and receive an HTML file using non-persistent connections?",
+    "output":"The estimated time needed is roughly two round-trip times (RTTs), one for the three-way handshake and one for the HTTP request\/response.\n",
+    "input":""
+  }
+]
