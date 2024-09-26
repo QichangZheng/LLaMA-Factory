@@ -29,8 +29,8 @@
   "The_Linux_Programming_Interface_train": {
     "file_name": "The_Linux_Programming_Interface_train.json"
   },
-  "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_train": {
-    "file_name": "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_train.json"
+  "UNIX_and_Linux_System_Administration_Handbook_train": {
+    "file_name": "UNIX_and_Linux_System_Administration_Handbook_train.json"
   },
   "Users_Groups_Processes_Permissions_train": {
     "file_name": "Users_Groups_Processes_Permissions_train.json"
@@ -62,8 +62,8 @@
   "The_Linux_Programming_Interface_test": {
     "file_name": "The_Linux_Programming_Interface_test.json"
   },
-  "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_test": {
-    "file_name": "UNIX_and_Linux_System_Administration_Handbook,_4th_Edition_test.json"
+  "UNIX_and_Linux_System_Administration_Handbook_test": {
+    "file_name": "UNIX_and_Linux_System_Administration_Handbook_test.json"
   },
   "Users_Groups_Processes_Permissions_test": {
     "file_name": "Users_Groups_Processes_Permissions_test.json"
