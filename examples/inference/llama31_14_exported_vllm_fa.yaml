@@ -3,3 +3,4 @@ template: llama3
 infer_backend: vllm
 vllm_enforce_eager: true
 vllm_maxlen: 2048
+flash_attn: fa2
