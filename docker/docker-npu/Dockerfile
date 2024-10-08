@@ -7,10 +7,11 @@ FROM ascendai/cann:8.0.rc1-910-openeuler22.03-py3.8
 
 # Define environments
 ENV DEBIAN_FRONTEND=noninteractive
+ENV HF_ENDPOINT=https://hf-mirror.com
 
 # Define installation arguments
 ARG INSTALL_DEEPSPEED=false
-ARG PIP_INDEX=https://pypi.org/simple
+ARG PIP_INDEX=https://pypi.tuna.tsinghua.edu.cn/simple
 ARG TORCH_INDEX=https://download.pytorch.org/whl/cpu
 
 # Set the working directory
