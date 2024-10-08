@@ -2,15 +2,18 @@
 # More versions can be found at https://hub.docker.com/r/ascendai/cann/tags
 # FROM ascendai/cann:8.0.rc1-910-ubuntu22.04-py3.8
 #FROM ascendai/cann:8.0.rc1-910b-ubuntu22.04-py3.8
-FROM ascendai/cann:8.0.rc1-910-openeuler22.03-py3.8
+#FROM ascendai/cann:8.0.rc1-910-openeuler22.03-py3.8
 # FROM ascendai/cann:8.0.rc1-910b-openeuler22.03-py3.8
+FROM registry.cn-hangzhou.aliyuncs.com/ascendai/cann:8.0.rc1-910-openeuler22.03-py3.8
+
 
 # Define environments
 ENV DEBIAN_FRONTEND=noninteractive
+ENV HF_ENDPOINT=https://hf-mirror.com
 
 # Define installation arguments
 ARG INSTALL_DEEPSPEED=false
-ARG PIP_INDEX=https://pypi.org/simple
+ARG PIP_INDEX=https://mirrors.aliyun.com/pypi/simple
 ARG TORCH_INDEX=https://download.pytorch.org/whl/cpu
 
 # Set the working directory
