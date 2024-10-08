@@ -5,7 +5,7 @@ services:
       context: ../..
       args:
         INSTALL_DEEPSPEED: false
-        PIP_INDEX: https://mirrors.aliyun.com/pypi/simple
+        PIP_INDEX: https://pypi.org/simple
     container_name: llamafactory
     volumes:
       - ../../hf_cache:/root/.cache/huggingface
