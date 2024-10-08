@@ -21,7 +21,7 @@ services:
     ipc: host
     tty: true
     stdin_open: true
-    command: bash
+    command: bash -c "llamafactory-cli webui"
     deploy:
       resources:
         reservations:
