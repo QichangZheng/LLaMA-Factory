@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: /root/LLaMA3.1-70B-Chat
+model_name_or_path: /home/HwHiAiUser/model
 
 ### method
 stage: sft
