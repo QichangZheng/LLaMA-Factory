@@ -1,0 +1,5 @@
+model_name_or_path: /root/autodl-tmp/Llama-3.2-90B-Vision-Instruct
+template: llama3
+infer_backend: vllm
+vllm_enforce_eager: true
+vllm_maxlen: 4096
