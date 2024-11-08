@@ -9,6 +9,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 import requests
+import time
 
 # Initialize FastAPI app
 app = FastAPI(title="LLaMA Vision API")
@@ -24,21 +25,19 @@ app.add_middleware(
 
 # Load model and processor
 model_id = "/root/autodl-tmp/Llama-3.2-11B-Vision-Instruct"
-device = "cuda" if torch.cuda.is_available() else "cpu"
 
 processor = AutoProcessor.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
     model_id,
-    torch_dtype=torch.float16 if device == "cuda" else torch.float32,
+    torch_dtype=torch.float16,
     device_map="auto"
 )
 
-# Create pipeline
+# Create pipeline without specifying device
 pipe = pipeline(
     "image-to-text",
     model=model,
-    processor=processor,
-    device=device
+    processor=processor
 )
 
 
@@ -113,7 +112,7 @@ async def chat_completion(request: ChatCompletionRequest):
         return ChatCompletionResponse(
             id="chatcmpl-" + base64.b64encode(str(hash(generated_text)).encode()).decode()[:10],
             object="chat.completion",
-            created=int(torch.cuda.current_timestamp()) if torch.cuda.is_available() else 0,
+            created=int(time.time()),
             model=model_id,
             choices=[
                 Choice(
